@@ -17,6 +17,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 118.11) (xy 82.55 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0db7e04d-15ac-40e7-840b-674540a26bc4")
+	)
+	(wire
+		(pts
 			(xy 121.92 87.63) (xy 149.86 87.63)
 		)
 		(stroke
@@ -44,6 +54,16 @@
 			(type default)
 		)
 		(uuid "22772127-9162-46fb-b7d4-2f0dc03f4f6a")
+	)
+	(wire
+		(pts
+			(xy 105.41 118.11) (xy 105.41 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3124c15d-d0f8-4488-9d2a-06b1dd7841bf")
 	)
 	(wire
 		(pts
@@ -77,6 +97,16 @@
 	)
 	(wire
 		(pts
+			(xy 87.63 118.11) (xy 87.63 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c142729-9854-4453-9f15-95e956380fa4")
+	)
+	(wire
+		(pts
 			(xy 121.92 67.31) (xy 149.86 67.31)
 		)
 		(stroke
@@ -97,6 +127,26 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 118.11) (xy 74.93 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b9989ad-b66e-43a7-a61c-75a208a0bfad")
+	)
+	(wire
+		(pts
+			(xy 90.17 118.11) (xy 90.17 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80340cd8-294d-44d8-b57b-7377a14712fa")
+	)
+	(wire
+		(pts
 			(xy 121.92 132.08) (xy 149.86 132.08)
 		)
 		(stroke
@@ -104,6 +154,26 @@
 			(type default)
 		)
 		(uuid "82a5f5d8-a47c-4031-84a9-47af97d69012")
+	)
+	(wire
+		(pts
+			(xy 80.01 118.11) (xy 80.01 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84077db4-e611-408f-bbe9-e62ac465c060")
+	)
+	(wire
+		(pts
+			(xy 107.95 118.11) (xy 107.95 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85a1cc78-ae7a-45ab-8dbc-2418c057f0a8")
 	)
 	(wire
 		(pts
@@ -134,6 +204,26 @@
 			(type default)
 		)
 		(uuid "8fcd33c6-39c3-496d-8ce2-c21be80a5b93")
+	)
+	(wire
+		(pts
+			(xy 92.71 118.11) (xy 92.71 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926cb388-431a-453f-8314-e49df7941c51")
+	)
+	(wire
+		(pts
+			(xy 100.33 118.11) (xy 100.33 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "993bd578-e9eb-4c26-936d-c6b77ee02b05")
 	)
 	(wire
 		(pts
@@ -197,6 +287,36 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 118.11) (xy 85.09 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ade1e8-2119-424a-b4ec-fba8c3e41e3d")
+	)
+	(wire
+		(pts
+			(xy 97.79 118.11) (xy 97.79 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2fe0d4a-5e27-4150-be6f-a7bab55be74f")
+	)
+	(wire
+		(pts
+			(xy 77.47 118.11) (xy 77.47 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6c7eceb-cabd-44f8-94e5-44d7b88b4b4e")
+	)
+	(wire
+		(pts
 			(xy 121.92 104.14) (xy 149.86 104.14)
 		)
 		(stroke
@@ -246,13 +366,12 @@
 		(uuid "fcda3bc0-2a70-43e9-b7bf-a0202a786848")
 	)
 	(sheet
-		(at 81.28 127)
-		(size 40.64 22.86)
+		(at 72.644 127)
+		(size 49.276 22.86)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -262,7 +381,7 @@
 		)
 		(uuid "04dcd323-38fa-43cb-aa42-78097a6a235c")
 		(property "Sheetname" "Receiving Section"
-			(at 81.28 126.2884 0)
+			(at 71.374 149.606 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -271,7 +390,7 @@
 			)
 		)
 		(property "Sheetfile" "receiver.kicad_sch"
-			(at 81.28 150.4446 0)
+			(at 72.644 150.4446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -359,10 +478,130 @@
 				(justify right)
 			)
 		)
+		(pin "ADC2" output
+			(at 77.47 127 90)
+			(uuid "e19bc4c1-0dfc-4f72-ae53-fd2bcd14895b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC6" output
+			(at 87.63 127 90)
+			(uuid "5258982c-3fbb-4e09-ab8f-90588407888e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AFE_GAIN_B2" input
+			(at 107.95 127 90)
+			(uuid "f3984bad-4584-48cf-89df-4fc39344ab31")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AFE_GAIN_A2" input
+			(at 100.33 127 90)
+			(uuid "2d4d00ed-c687-4083-8364-8661dd39239a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AFE_GAIN_B1" input
+			(at 105.41 127 90)
+			(uuid "1a04c12a-ce0f-4f1f-934e-4a36258a8900")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC3" output
+			(at 80.01 127 90)
+			(uuid "ab13babd-db83-4e22-9cf0-d4eaee3fea56")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "AFE_GAIN_A1" input
+			(at 97.79 127 90)
+			(uuid "9e55aa6e-551c-4f96-9c8d-d0dd7c29584c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC7" output
+			(at 90.17 127 90)
+			(uuid "ed22bca5-b654-4ce3-83bf-3de4ec30f2b3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC5" output
+			(at 85.09 127 90)
+			(uuid "ef91ea35-b4fc-499c-bd78-ef41f55e968f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC1" output
+			(at 74.93 127 90)
+			(uuid "1c5c01dc-7608-498a-aa63-9b2c1430d589")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC8" output
+			(at 92.71 127 90)
+			(uuid "d3c37c56-15d5-4ac9-a7c4-1c7616a3ee6c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "ADC4" output
+			(at 82.55 127 90)
+			(uuid "43049608-ecd7-4a39-87c2-579992cb3ef6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1"
-					(page "5")
+					(page "4")
 				)
 			)
 		)
@@ -641,22 +880,41 @@
 				(justify left)
 			)
 		)
+		(pin "MODE0" input
+			(at 149.86 120.65 180)
+			(uuid "4c67199e-0545-4b61-a6c2-8a823bd18fee")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MODE1" input
+			(at 149.86 123.19 180)
+			(uuid "ecd76090-610e-46bf-ae7c-a2a210647fa1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1"
-					(page "4")
+					(page "3")
 				)
 			)
 		)
 	)
 	(sheet
-		(at 81.28 54.61)
-		(size 40.64 63.5)
+		(at 72.644 54.61)
+		(size 49.276 63.5)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
 			(type solid)
@@ -666,7 +924,7 @@
 		)
 		(uuid "80deb650-3291-429a-af5f-f79360452109")
 		(property "Sheetname" "Main MCU Section"
-			(at 81.28 53.8984 0)
+			(at 72.644 53.8984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -675,7 +933,7 @@
 			)
 		)
 		(property "Sheetfile" "MCU.kicad_sch"
-			(at 81.28 118.6946 0)
+			(at 70.358 118.364 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -843,10 +1101,130 @@
 				(justify right)
 			)
 		)
+		(pin "AFE_GAIN_A1" output
+			(at 97.79 118.11 270)
+			(uuid "eb558618-1f7d-458e-becb-70d0085410a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AFE_GAIN_B2" output
+			(at 107.95 118.11 270)
+			(uuid "6cfb47c6-e7f5-4088-a8e4-3d3806f6d89f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC2" input
+			(at 77.47 118.11 270)
+			(uuid "71e17666-594d-4af9-923d-8779c27638de")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC6" input
+			(at 87.63 118.11 270)
+			(uuid "b03147c8-45d5-4c28-b250-88e725fe66dd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC4" input
+			(at 82.55 118.11 270)
+			(uuid "4962df2e-7a2c-42ed-9657-6bd2e03d973c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC3" input
+			(at 80.01 118.11 270)
+			(uuid "4c18e01a-c17b-452f-9cc2-a7f06f92c563")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AFE_GAIN_A2" output
+			(at 100.33 118.11 270)
+			(uuid "967fd435-c8d9-4273-8a7f-ea7f4e704e94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC5" input
+			(at 85.09 118.11 270)
+			(uuid "b91b34e9-33cd-4156-be7f-e38d98ba8c0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC7" input
+			(at 90.17 118.11 270)
+			(uuid "729427fa-17a3-420b-8be0-fef9c9a0ffb2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC8" input
+			(at 92.71 118.11 270)
+			(uuid "0f242b28-fc88-4286-bb43-4016eaf70047")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "ADC1" input
+			(at 74.93 118.11 270)
+			(uuid "7de64069-c154-4923-bcba-b8930dc6b869")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "AFE_GAIN_B1" output
+			(at 105.41 118.11 270)
+			(uuid "7d8eb903-c0d6-4ebe-9044-571bc244b4f3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1"
-					(page "3")
+					(page "2")
 				)
 			)
 		)
@@ -888,7 +1266,7 @@
 		(instances
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1"
-					(page "6")
+					(page "5")
 				)
 			)
 		)
