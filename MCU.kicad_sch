@@ -3504,10 +3504,6 @@
 		(uuid "0fa91cd7-8155-4840-84bb-73ab31ca8f8d")
 	)
 	(no_connect
-		(at 345.44 88.9)
-		(uuid "1eebb3bf-25cc-4e8b-afb8-8acbfa92dc52")
-	)
-	(no_connect
 		(at 345.44 104.14)
 		(uuid "57b1876b-1988-4679-87bf-1c404a81c089")
 	)
@@ -5609,6 +5605,16 @@
 	)
 	(wire
 		(pts
+			(xy 345.44 88.9) (xy 355.6 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e37ee7bb-00ca-4d60-a60c-83c1e68f5dfb")
+	)
+	(wire
+		(pts
 			(xy 267.97 71.12) (xy 284.48 71.12)
 		)
 		(stroke
@@ -7438,6 +7444,17 @@
 			(justify right)
 		)
 		(uuid "5eb66556-a77f-4ffa-870d-e4e378116e5f")
+	)
+	(hierarchical_label "Analog_EN"
+		(shape output)
+		(at 355.6 88.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "641fee96-1a59-4a3a-ab41-f240304a7844")
 	)
 	(hierarchical_label "CH7_B"
 		(shape output)
