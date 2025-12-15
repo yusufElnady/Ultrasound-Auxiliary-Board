@@ -2841,6 +2841,17 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Output voltage from LNA+VGA:\n-1.125 -> 1.125 (2.25v swing)\n\nInput voltage range for the MCU's ADC:\n0 -> 3.3 (3.3v swing)\n\nThe differential opamp configuration\nshifts the signal and amplifies it with\na factor of 1.444 (3.9/2.7) to achieve\na swing of 3.25.\n\n"
+		(exclude_from_sim no)
+		(at 258.826 241.554 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "67eab45f-2aed-46c1-81f1-d24b574582ca")
+	)
 	(text "2nd order filter values were recommended\nby a TI application note (spraa88a), specs:\n- PWM frequency = 5 MHz\n- Cut-off frequency = 107.3 KHz\n- Damping ratio = 0.675 (over-damped but response time = 3 uSec)"
 		(exclude_from_sim no)
 		(at 15.748 252.73 0)
@@ -6124,6 +6135,16 @@
 	)
 	(wire
 		(pts
+			(xy 287.02 189.23) (xy 287.02 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e8092ad-4bf8-4bda-946a-badf9d46c6c2")
+	)
+	(wire
+		(pts
 			(xy 25.4 88.9) (xy 25.4 91.44)
 		)
 		(stroke
@@ -6471,6 +6492,16 @@
 			(type default)
 		)
 		(uuid "7f50b240-fb03-405a-abea-a40769ab5fac")
+	)
+	(wire
+		(pts
+			(xy 280.67 176.53) (xy 280.67 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7faab81c-2b0f-4edc-9d07-6da4170be31c")
 	)
 	(wire
 		(pts
@@ -7534,6 +7565,16 @@
 	)
 	(wire
 		(pts
+			(xy 280.67 189.23) (xy 280.67 193.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b971c39b-e7b0-4a41-8c08-1ec7510c38d3")
+	)
+	(wire
+		(pts
 			(xy 254 92.71) (xy 254 90.17)
 		)
 		(stroke
@@ -8334,6 +8375,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 180.34) (xy 82.55 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8e45072-6779-403b-93d4-59430567818c")
+	)
+	(wire
+		(pts
 			(xy 186.69 53.34) (xy 193.04 53.34)
 		)
 		(stroke
@@ -8381,6 +8432,16 @@
 			(type default)
 		)
 		(uuid "db897efe-3358-4a30-939a-0371a3cea6b1")
+	)
+	(wire
+		(pts
+			(xy 287.02 176.53) (xy 287.02 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "db9f1000-a5ff-41eb-b5b7-70a3550859fa")
 	)
 	(wire
 		(pts
@@ -8474,6 +8535,16 @@
 	)
 	(wire
 		(pts
+			(xy 82.55 193.04) (xy 82.55 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dda67554-1130-4f0b-97b4-ff89cc30906e")
+	)
+	(wire
+		(pts
 			(xy 91.44 121.92) (xy 91.44 119.38)
 		)
 		(stroke
@@ -8541,6 +8612,16 @@
 			(type default)
 		)
 		(uuid "e03180e7-bbc9-4404-b55e-102337201046")
+	)
+	(wire
+		(pts
+			(xy 88.9 180.34) (xy 88.9 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0c821a0-4701-4cee-9363-8f344a682f00")
 	)
 	(wire
 		(pts
@@ -9101,6 +9182,16 @@
 			(type default)
 		)
 		(uuid "f5fdeb4f-587b-4d71-a91d-304afbe0a356")
+	)
+	(wire
+		(pts
+			(xy 88.9 193.04) (xy 88.9 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f62cfdb3-5b7c-4e02-8d0b-bbcbe5cfb04a")
 	)
 	(wire
 		(pts
@@ -12127,7 +12218,7 @@
 		)
 		(uuid "08f242e9-95be-4ba5-8e05-2ed5629d676f")
 	)
-	(label "ADC3_H"
+	(label "ADC7_H"
 		(at 347.98 80.01 0)
 		(effects
 			(font
@@ -12146,6 +12237,16 @@
 			(justify right bottom)
 		)
 		(uuid "0c3e5125-3236-472f-b305-63bb6980c4bd")
+	)
+	(label "CLAMP12_A"
+		(at 88.9 180.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "0c7c94ea-73d2-4b8f-8d11-e4a9f3fb3f0b")
 	)
 	(label "ADC6_L"
 		(at 144.78 264.16 180)
@@ -12217,7 +12318,7 @@
 		)
 		(uuid "14e05f60-6775-4c72-9c85-36e3ee8f87b8")
 	)
-	(label "LNAA2_P"
+	(label "LNAA6_P"
 		(at 363.22 64.77 0)
 		(effects
 			(font
@@ -12237,7 +12338,7 @@
 		)
 		(uuid "19661e7a-5d88-4862-8113-c90841e75c48")
 	)
-	(label "ADC1_L"
+	(label "ADC5_L"
 		(at 347.98 87.63 0)
 		(effects
 			(font
@@ -12287,7 +12388,7 @@
 		)
 		(uuid "2420d1a7-60b1-425d-a88b-0f98524e22bf")
 	)
-	(label "ADC1_H"
+	(label "ADC5_H"
 		(at 347.98 74.93 0)
 		(effects
 			(font
@@ -12377,7 +12478,7 @@
 		)
 		(uuid "3b19fae3-9d6d-41ab-b2f7-b10bd3d80a45")
 	)
-	(label "LNAA2_N"
+	(label "LNAA6_N"
 		(at 363.22 52.07 0)
 		(effects
 			(font
@@ -12427,7 +12528,7 @@
 		)
 		(uuid "4f4aca67-37ee-4422-b713-7ff50164264e")
 	)
-	(label "ADC2_H"
+	(label "ADC6_H"
 		(at 347.98 77.47 0)
 		(effects
 			(font
@@ -12467,7 +12568,7 @@
 		)
 		(uuid "51c81b88-e5e1-4c64-abff-af7b991dcdf9")
 	)
-	(label "ADC2_L"
+	(label "ADC3_L"
 		(at 269.24 215.9 0)
 		(effects
 			(font
@@ -12557,7 +12658,7 @@
 		)
 		(uuid "685ce75d-50f9-437e-9776-a6db29fefbdd")
 	)
-	(label "ADC3_L"
+	(label "ADC7_L"
 		(at 347.98 92.71 0)
 		(effects
 			(font
@@ -12577,7 +12678,7 @@
 		)
 		(uuid "6f7f19a0-3224-4c5e-bd2d-b36453100f25")
 	)
-	(label "ADC2_H"
+	(label "ADC3_H"
 		(at 269.24 213.36 0)
 		(effects
 			(font
@@ -12607,7 +12708,7 @@
 		)
 		(uuid "78782489-e086-4102-ad56-b9c2a604d26d")
 	)
-	(label "ADC1_L"
+	(label "ADC4_L"
 		(at 297.18 205.74 0)
 		(effects
 			(font
@@ -12657,7 +12758,7 @@
 		)
 		(uuid "7b187bcd-d12f-44cd-8ec5-34fca1e4dd96")
 	)
-	(label "LNAA1_P"
+	(label "LNAA5_P"
 		(at 363.22 62.23 0)
 		(effects
 			(font
@@ -12707,7 +12808,7 @@
 		)
 		(uuid "885dfb99-fc18-4744-9b4b-0e294f383788")
 	)
-	(label "LNAA3_P"
+	(label "LNAA7_P"
 		(at 363.22 67.31 0)
 		(effects
 			(font
@@ -12737,7 +12838,7 @@
 		)
 		(uuid "97acc2f8-2b3a-4b9a-9a43-2790e422c969")
 	)
-	(label "LNAA4_P"
+	(label "LNAA8_P"
 		(at 363.22 69.85 0)
 		(effects
 			(font
@@ -12757,7 +12858,7 @@
 		)
 		(uuid "99919e97-bb0c-408a-8f5e-8f4857543aed")
 	)
-	(label "LNAA4_N"
+	(label "LNAA8_N"
 		(at 363.22 57.15 0)
 		(effects
 			(font
@@ -12767,7 +12868,7 @@
 		)
 		(uuid "99967fc6-03c8-4cdb-bbee-7c7472dcbf7c")
 	)
-	(label "LNAA1_N"
+	(label "LNAA5_N"
 		(at 363.22 49.53 0)
 		(effects
 			(font
@@ -12847,7 +12948,7 @@
 		)
 		(uuid "b3a85fed-7b00-46e5-a480-4fa6f66b07a7")
 	)
-	(label "LNAA3_N"
+	(label "LNAA7_N"
 		(at 363.22 54.61 0)
 		(effects
 			(font
@@ -12857,7 +12958,7 @@
 		)
 		(uuid "b5c33f6f-22b2-48a4-ae72-ad0b1f3ab0b3")
 	)
-	(label "ADC1_H"
+	(label "ADC4_H"
 		(at 297.18 208.28 0)
 		(effects
 			(font
@@ -12977,6 +13078,16 @@
 		)
 		(uuid "d20e6afc-ff03-4018-a965-642a3fdd0c3d")
 	)
+	(label "CLAMP34_A"
+		(at 82.55 180.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d31d7699-4403-4d11-bbc2-bd4fd63920df")
+	)
 	(label "ADC2_L"
 		(at 157.48 215.9 180)
 		(effects
@@ -13007,7 +13118,7 @@
 		)
 		(uuid "d5ef1248-9398-417f-9ceb-15955584668e")
 	)
-	(label "ADC4_H"
+	(label "ADC8_H"
 		(at 347.98 82.55 0)
 		(effects
 			(font
@@ -13027,6 +13138,16 @@
 		)
 		(uuid "d7999444-2802-448d-8934-9d5d30e3b122")
 	)
+	(label "CLAMP12_B"
+		(at 280.67 176.53 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d9949fb8-19eb-48ba-826b-7c63690148ed")
+	)
 	(label "ADC5_H"
 		(at 116.84 256.54 180)
 		(effects
@@ -13037,7 +13158,7 @@
 		)
 		(uuid "db2eed0f-c084-449e-9f1e-cf735af0ee61")
 	)
-	(label "ADC4_L"
+	(label "ADC8_L"
 		(at 347.98 95.25 0)
 		(effects
 			(font
@@ -13066,6 +13187,16 @@
 			(justify left bottom)
 		)
 		(uuid "dcedf921-598f-4840-9d2b-8c0c3ec22caa")
+	)
+	(label "CLAMP34_B"
+		(at 287.02 176.53 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "df340943-941b-42b3-9a89-8969c1e5c853")
 	)
 	(label "MODE_B"
 		(at 285.75 148.59 0)
@@ -13097,7 +13228,7 @@
 		)
 		(uuid "e4e119eb-b6da-4b00-8f91-8abdd4b83933")
 	)
-	(label "ADC2_L"
+	(label "ADC6_L"
 		(at 347.98 90.17 0)
 		(effects
 			(font
@@ -14435,6 +14566,72 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/04dcd323-38fa-43cb-aa42-78097a6a235c"
 					(reference "C33")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 287.02 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "21e739d7-2d81-4b53-8717-21b34911d525")
+		(property "Reference" "#PWR0140"
+			(at 287.02 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 287.02 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 287.02 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 287.02 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 287.02 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd764bd3-1368-47f6-8487-e64a782165b7")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/04dcd323-38fa-43cb-aa42-78097a6a235c"
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -16350,6 +16547,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 280.67 193.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "43aaa067-dea2-4083-817f-de357ecb1e08")
+		(property "Reference" "#PWR0139"
+			(at 280.67 199.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.67 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 280.67 193.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "731c7b31-ed28-4b50-9523-cd55c6d460a6")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/04dcd323-38fa-43cb-aa42-78097a6a235c"
+					(reference "#PWR0139")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 147.32 215.9 0)
 		(mirror x)
@@ -18119,6 +18382,75 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 88.9 189.23 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56b633c4-6b98-4f78-8e45-e97ca78a3b47")
+		(property "Reference" "R100"
+			(at 91.44 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.5k"
+			(at 91.44 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.678 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5k 0805 0.1%"
+			(at 88.9 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "362ce841-888e-46de-9e72-af059466f3c2")
+		)
+		(pin "2"
+			(uuid "12cdf5d9-7c55-4ed3-9312-f2d4cdc7c7b5")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/04dcd323-38fa-43cb-aa42-78097a6a235c"
+					(reference "R100")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 377.19 152.4 0)
 		(unit 1)
@@ -18978,6 +19310,72 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/04dcd323-38fa-43cb-aa42-78097a6a235c"
 					(reference "C55")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 82.55 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b3883a1-ea5a-465c-8c3c-9562e734f90f")
+		(property "Reference" "#PWR0137"
+			(at 82.55 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 82.55 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 82.55 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdf7127d-bba5-4d59-9834-ff2c8e31adc0")
+		)
+		(instances
+			(project ""
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/04dcd323-38fa-43cb-aa42-78097a6a235c"
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -22285,6 +22683,75 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 287.02 185.42 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b94d48d1-2e33-4681-8e1e-99d9026a33e3")
+		(property "Reference" "R104"
+			(at 289.56 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.5k"
+			(at 289.56 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 288.798 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 287.02 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5k 0805 0.1%"
+			(at 287.02 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c7cd6ffc-276f-4c2d-88c2-f44e3a8a2df4")
+		)
+		(pin "2"
+			(uuid "f3c95f8b-e090-4da5-8909-dbd691521a8c")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/04dcd323-38fa-43cb-aa42-78097a6a235c"
+					(reference "R104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 247.65 261.62 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -22549,6 +23016,72 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/04dcd323-38fa-43cb-aa42-78097a6a235c"
 					(reference "C59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 196.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c074b61a-2bbe-413f-943c-ccc5707ff65c")
+		(property "Reference" "#PWR0138"
+			(at 88.9 203.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7a723a5c-8a3d-4f08-8d9a-df5cebda33b9")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/04dcd323-38fa-43cb-aa42-78097a6a235c"
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -24428,6 +24961,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 82.55 189.23 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "df374852-2874-47c4-a5e3-412711204c9e")
+		(property "Reference" "R99"
+			(at 80.01 187.9599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.5k"
+			(at 80.01 190.4999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.772 189.23 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 82.55 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5k 0805 0.1%"
+			(at 82.55 189.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ead40fd6-4e59-4368-8eca-9e990767f931")
+		)
+		(pin "2"
+			(uuid "fa5cbbd1-47e7-4f3c-98cc-7ade48fbb88f")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/04dcd323-38fa-43cb-aa42-78097a6a235c"
+					(reference "R99")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
 		(at 299.72 118.11 0)
 		(unit 1)
@@ -24490,6 +25093,76 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/04dcd323-38fa-43cb-aa42-78097a6a235c"
 					(reference "JP13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 280.67 185.42 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e398d09a-f882-44f4-ad52-eef79da1d887")
+		(property "Reference" "R103"
+			(at 278.13 184.1499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "3.5k"
+			(at 278.13 186.6899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.892 185.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 280.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3.5k 0805 0.1%"
+			(at 280.67 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "955f441a-5238-4863-9e11-eb3f0f4c7e7c")
+		)
+		(pin "2"
+			(uuid "6f9c6711-697e-4585-89fb-abcb49efdbf7")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/04dcd323-38fa-43cb-aa42-78097a6a235c"
+					(reference "R103")
 					(unit 1)
 				)
 			)
