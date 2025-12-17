@@ -57,7 +57,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 29.21) (xy 58.42 29.21)
+			(xy 53.34 27.94) (xy 58.42 27.94)
 		)
 		(stroke
 			(width 0)
@@ -114,6 +114,16 @@
 			(type default)
 		)
 		(uuid "36ea0d61-a00b-45be-b542-1f2380a0fbd1")
+	)
+	(wire
+		(pts
+			(xy 53.34 34.29) (xy 58.42 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3c7fa8ea-9cf6-4dd4-9c71-05ea35e70310")
 	)
 	(wire
 		(pts
@@ -2601,7 +2611,7 @@
 				(justify right)
 			)
 		)
-		(pin "THP" output
+		(pin "THP" input
 			(at 109.22 92.71 0)
 			(uuid "43ea6f35-0fb8-4cd0-92d4-44f171cea4ed")
 			(effects
@@ -2622,8 +2632,18 @@
 			)
 		)
 		(pin "Analog_EN" output
-			(at 58.42 29.21 180)
+			(at 58.42 27.94 180)
 			(uuid "d9fc2889-efae-4f4b-8894-cdea42a53482")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Pulser_EN" output
+			(at 58.42 34.29 180)
+			(uuid "7a478b5d-54d7-49d2-90c8-85003dfdef79")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,8 +2694,18 @@
 			)
 		)
 		(pin "Analog_EN" input
-			(at 53.34 29.21 0)
+			(at 53.34 27.94 0)
 			(uuid "da9d3188-8e78-4138-84ee-8ea678a41737")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Pulser_EN" input
+			(at 53.34 34.29 0)
+			(uuid "3d780cc5-fdc0-482f-906d-b11391eafef6")
 			(effects
 				(font
 					(size 1.27 1.27)
