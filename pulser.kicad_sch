@@ -781,6 +781,169 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:TestPoint"
 			(pin_numbers
 				(hide yes)
@@ -4193,7 +4356,7 @@
 		(uuid "2d668926-a1b7-4266-8a30-58a807ccc627")
 	)
 	(junction
-		(at 168.91 100.33)
+		(at 179.07 100.33)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "31b7e639-f7d8-4d5a-acac-d3fc594da1ae")
@@ -4211,7 +4374,7 @@
 		(uuid "3a900a26-fbd1-4c7e-aefa-ab3e71236ab2")
 	)
 	(junction
-		(at 168.91 93.98)
+		(at 179.07 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bc6a9f1-b8e9-4696-ad89-442f6cec9478")
@@ -4229,7 +4392,7 @@
 		(uuid "45daadea-9a08-49a3-a227-dc29137fb660")
 	)
 	(junction
-		(at 168.91 106.68)
+		(at 179.07 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "48ad6c59-200b-400a-b0a5-df52cd2632f7")
@@ -4259,7 +4422,7 @@
 		(uuid "58495fd7-b90e-4784-9fe1-e68b7d3f569f")
 	)
 	(junction
-		(at 168.91 113.03)
+		(at 179.07 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5e6d8996-f9c4-4f61-93b1-40277d6b7d20")
@@ -4313,7 +4476,7 @@
 		(uuid "818ba902-f14e-444c-948e-9023fe250929")
 	)
 	(junction
-		(at 168.91 125.73)
+		(at 179.07 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "87b9fa4f-75e5-4e80-8549-81fd5f6e7911")
@@ -4415,7 +4578,7 @@
 		(uuid "b72a7e5a-806f-48ff-a9fd-7ec1b53afb8e")
 	)
 	(junction
-		(at 168.91 132.08)
+		(at 179.07 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bf6d3c61-f8fc-44cf-8daa-87d2e3add6d9")
@@ -4481,7 +4644,7 @@
 		(uuid "e5280216-da81-4b01-b38e-a841f6a40c3d")
 	)
 	(junction
-		(at 168.91 119.38)
+		(at 179.07 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e6b1b18b-e73c-4fc5-b4db-03a7c4983a72")
@@ -4510,6 +4673,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 62.23) (xy 245.11 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "010de009-0284-4671-9c71-8a516067038a")
+	)
+	(wire
+		(pts
 			(xy 342.9 156.21) (xy 342.9 161.29)
 		)
 		(stroke
@@ -4517,6 +4690,16 @@
 			(type default)
 		)
 		(uuid "017f238e-8af0-4498-accb-3f39b8b448fd")
+	)
+	(wire
+		(pts
+			(xy 241.3 20.32) (xy 245.11 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04233871-1f7b-4899-ad5c-429c15891b05")
 	)
 	(wire
 		(pts
@@ -4620,6 +4803,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 34.29) (xy 245.11 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "08ded37f-e0ea-479c-bfb0-4c0ae887b2c4")
+	)
+	(wire
+		(pts
 			(xy 255.27 114.3) (xy 255.27 111.76)
 		)
 		(stroke
@@ -4680,7 +4873,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 97.79) (xy 171.45 97.79)
+			(xy 172.72 97.79) (xy 181.61 97.79)
 		)
 		(stroke
 			(width 0)
@@ -4700,7 +4893,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 87.63) (xy 168.91 87.63)
+			(xy 181.61 87.63) (xy 179.07 87.63)
 		)
 		(stroke
 			(width 0)
@@ -4780,7 +4973,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 106.68) (xy 171.45 106.68)
+			(xy 179.07 106.68) (xy 181.61 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4797,6 +4990,16 @@
 			(type default)
 		)
 		(uuid "1301d2be-a51a-4481-a0bb-63bd7b07050d")
+	)
+	(wire
+		(pts
+			(xy 241.3 45.72) (xy 246.38 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "13935f53-89b9-4c7d-8ead-7e5642287349")
 	)
 	(wire
 		(pts
@@ -4910,6 +5113,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 62.23) (xy 276.86 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18e6cb96-5be5-4714-9fd6-8bf2b364f330")
+	)
+	(wire
+		(pts
 			(xy 54.61 114.3) (xy 54.61 115.57)
 		)
 		(stroke
@@ -4980,7 +5193,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 87.63) (xy 168.91 93.98)
+			(xy 179.07 87.63) (xy 179.07 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5090,7 +5303,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 87.63) (xy 166.37 91.44)
+			(xy 176.53 87.63) (xy 176.53 91.44)
 		)
 		(stroke
 			(width 0)
@@ -5250,7 +5463,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 90.17) (xy 162.56 97.79)
+			(xy 172.72 90.17) (xy 172.72 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5320,7 +5533,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 100.33) (xy 147.32 100.33)
+			(xy 142.24 100.33) (xy 157.48 100.33)
 		)
 		(stroke
 			(width 0)
@@ -5420,16 +5633,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 92.71) (xy 158.75 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "384c7026-ff6c-4d27-a3c2-d4b97dae8f7b")
-	)
-	(wire
-		(pts
 			(xy 377.19 115.57) (xy 377.19 118.11)
 		)
 		(stroke
@@ -5460,7 +5663,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 119.38) (xy 168.91 125.73)
+			(xy 179.07 119.38) (xy 179.07 125.73)
 		)
 		(stroke
 			(width 0)
@@ -5490,6 +5693,16 @@
 	)
 	(wire
 		(pts
+			(xy 245.11 48.26) (xy 245.11 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d9a3548-ecfa-41e8-8623-2ccc1e3a3116")
+	)
+	(wire
+		(pts
 			(xy 162.56 34.29) (xy 162.56 44.45)
 		)
 		(stroke
@@ -5497,6 +5710,16 @@
 			(type default)
 		)
 		(uuid "3f5e4fc4-e5f2-409b-bc3c-c38a2ade569a")
+	)
+	(wire
+		(pts
+			(xy 273.05 45.72) (xy 278.13 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f67475f-208e-46c8-9273-129f8434ceb9")
 	)
 	(wire
 		(pts
@@ -5510,7 +5733,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 100.33) (xy 147.32 123.19)
+			(xy 157.48 100.33) (xy 157.48 123.19)
 		)
 		(stroke
 			(width 0)
@@ -5650,7 +5873,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 119.38) (xy 171.45 119.38)
+			(xy 179.07 119.38) (xy 181.61 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5710,7 +5933,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 132.08) (xy 168.91 134.62)
+			(xy 179.07 132.08) (xy 179.07 134.62)
 		)
 		(stroke
 			(width 0)
@@ -5760,7 +5983,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 113.03) (xy 168.91 119.38)
+			(xy 179.07 113.03) (xy 179.07 119.38)
 		)
 		(stroke
 			(width 0)
@@ -5930,6 +6153,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 17.78) (xy 246.38 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66ec43a2-e7c8-459a-942d-426ed70c4b3e")
+	)
+	(wire
+		(pts
 			(xy 306.07 133.35) (xy 307.34 133.35)
 		)
 		(stroke
@@ -5980,6 +6213,26 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 20.32) (xy 276.86 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a2b3220-1248-430a-990e-836a0f1250bf")
+	)
+	(wire
+		(pts
+			(xy 241.3 59.69) (xy 246.38 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c5cd2f1-f8cd-40d1-9255-2a83f2a12378")
+	)
+	(wire
+		(pts
 			(xy 168.91 46.99) (xy 142.24 46.99)
 		)
 		(stroke
@@ -5987,6 +6240,16 @@
 			(type default)
 		)
 		(uuid "6d5aa106-251e-45f9-a653-283d7bd68777")
+	)
+	(wire
+		(pts
+			(xy 276.86 62.23) (xy 276.86 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6dc0f93a-c664-4e97-92c4-f3bbcd3e9a99")
 	)
 	(wire
 		(pts
@@ -6080,6 +6343,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 31.75) (xy 246.38 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "733f5f19-931f-40d0-9bd5-babbd15cbc70")
+	)
+	(wire
+		(pts
 			(xy 337.82 153.67) (xy 342.9 153.67)
 		)
 		(stroke
@@ -6160,6 +6433,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 48.26) (xy 276.86 52.07)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "75b623a0-b03d-4c47-b388-471f84d73f22")
+	)
+	(wire
+		(pts
 			(xy 260.35 160.02) (xy 260.35 162.56)
 		)
 		(stroke
@@ -6180,7 +6463,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 110.49) (xy 171.45 110.49)
+			(xy 165.1 110.49) (xy 181.61 110.49)
 		)
 		(stroke
 			(width 0)
@@ -6207,6 +6490,16 @@
 			(type default)
 		)
 		(uuid "791918a5-fea5-4060-af5c-d4d878a51262")
+	)
+	(wire
+		(pts
+			(xy 241.3 62.23) (xy 245.11 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a8e3120-f7ba-4ddf-9470-74867478baa9")
 	)
 	(wire
 		(pts
@@ -6380,7 +6673,7 @@
 	)
 	(wire
 		(pts
-			(xy 147.32 123.19) (xy 171.45 123.19)
+			(xy 157.48 123.19) (xy 181.61 123.19)
 		)
 		(stroke
 			(width 0)
@@ -6410,26 +6703,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 90.17) (xy 162.56 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88b34ce2-b35e-4742-bc9d-ce8784845611")
-	)
-	(wire
-		(pts
-			(xy 142.24 85.09) (xy 171.45 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "88cfc8de-a003-4259-b24b-5a79feb5aff3")
-	)
-	(wire
-		(pts
 			(xy 341.63 166.37) (xy 377.19 166.37)
 		)
 		(stroke
@@ -6447,6 +6720,26 @@
 			(type default)
 		)
 		(uuid "8a620e3c-86b6-40d4-84c0-a27ca5bbc1ed")
+	)
+	(wire
+		(pts
+			(xy 273.05 34.29) (xy 276.86 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a9f2feb-e0b4-48a7-9dd8-628641973ce7")
+	)
+	(wire
+		(pts
+			(xy 276.86 34.29) (xy 276.86 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c13858d-30b1-443d-99e3-792ca07a7df5")
 	)
 	(wire
 		(pts
@@ -6500,16 +6793,6 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 87.63) (xy 166.37 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "91c00cf0-8cdf-44c1-89fc-53ee2fcd4c72")
-	)
-	(wire
-		(pts
 			(xy 60.96 132.08) (xy 60.96 125.73)
 		)
 		(stroke
@@ -6527,6 +6810,16 @@
 			(type default)
 		)
 		(uuid "92ec21df-18d4-4d27-a2cf-fb762e2c467b")
+	)
+	(wire
+		(pts
+			(xy 245.11 20.32) (xy 245.11 24.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "936f01a6-6880-4d0d-81f5-844874b7814b")
 	)
 	(wire
 		(pts
@@ -6560,7 +6853,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 104.14) (xy 171.45 104.14)
+			(xy 168.91 104.14) (xy 181.61 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6600,7 +6893,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 100.33) (xy 168.91 106.68)
+			(xy 179.07 100.33) (xy 179.07 106.68)
 		)
 		(stroke
 			(width 0)
@@ -6677,6 +6970,16 @@
 			(type default)
 		)
 		(uuid "a16f0c26-52f6-4836-8e65-dbf76f64622e")
+	)
+	(wire
+		(pts
+			(xy 241.3 34.29) (xy 245.11 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2cc4907-2b23-443d-8475-9b0f2d74a6d3")
 	)
 	(wire
 		(pts
@@ -6830,7 +7133,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 93.98) (xy 168.91 100.33)
+			(xy 179.07 93.98) (xy 179.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -6960,7 +7263,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 97.79) (xy 151.13 97.79)
+			(xy 142.24 97.79) (xy 161.29 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7030,7 +7333,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 125.73) (xy 168.91 132.08)
+			(xy 179.07 125.73) (xy 179.07 132.08)
 		)
 		(stroke
 			(width 0)
@@ -7140,7 +7443,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 93.98) (xy 171.45 93.98)
+			(xy 179.07 93.98) (xy 181.61 93.98)
 		)
 		(stroke
 			(width 0)
@@ -7230,7 +7533,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 129.54) (xy 171.45 129.54)
+			(xy 273.05 31.75) (xy 278.13 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21a8829-ff48-49a7-905a-7a09f629e47a")
+	)
+	(wire
+		(pts
+			(xy 153.67 129.54) (xy 181.61 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7270,7 +7583,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 92.71) (xy 158.75 104.14)
+			(xy 168.91 92.71) (xy 168.91 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7300,7 +7613,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 95.25) (xy 154.94 95.25)
+			(xy 142.24 95.25) (xy 165.1 95.25)
 		)
 		(stroke
 			(width 0)
@@ -7360,7 +7673,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 106.68) (xy 168.91 113.03)
+			(xy 142.24 87.63) (xy 176.53 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc099ee3-5c7b-4fe3-aef2-2af5c65e6396")
+	)
+	(wire
+		(pts
+			(xy 179.07 106.68) (xy 179.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7390,7 +7713,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 125.73) (xy 171.45 125.73)
+			(xy 179.07 125.73) (xy 181.61 125.73)
 		)
 		(stroke
 			(width 0)
@@ -7470,7 +7793,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 102.87) (xy 143.51 129.54)
+			(xy 153.67 102.87) (xy 153.67 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7487,6 +7810,16 @@
 			(type default)
 		)
 		(uuid "d2ce51dc-f415-421b-b747-24d4c8b73fef")
+	)
+	(wire
+		(pts
+			(xy 273.05 59.69) (xy 278.13 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2f1d09a-87b1-4193-9b06-dfe015022103")
 	)
 	(wire
 		(pts
@@ -7540,7 +7873,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 116.84) (xy 171.45 116.84)
+			(xy 161.29 116.84) (xy 181.61 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7610,6 +7943,16 @@
 	)
 	(wire
 		(pts
+			(xy 273.05 20.32) (xy 276.86 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc967c39-386b-4630-871d-3ff05168f56b")
+	)
+	(wire
+		(pts
 			(xy 22.86 39.37) (xy 34.29 39.37)
 		)
 		(stroke
@@ -7650,6 +7993,16 @@
 	)
 	(wire
 		(pts
+			(xy 241.3 48.26) (xy 245.11 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ded020c8-9d69-49a3-9db8-b0a36760598b")
+	)
+	(wire
+		(pts
 			(xy 341.63 120.65) (xy 377.19 120.65)
 		)
 		(stroke
@@ -7660,7 +8013,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 97.79) (xy 151.13 116.84)
+			(xy 161.29 97.79) (xy 161.29 116.84)
 		)
 		(stroke
 			(width 0)
@@ -7680,7 +8033,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 102.87) (xy 143.51 102.87)
+			(xy 142.24 102.87) (xy 153.67 102.87)
 		)
 		(stroke
 			(width 0)
@@ -7717,6 +8070,16 @@
 			(type default)
 		)
 		(uuid "e365cf32-8547-412b-b3ae-dd7da2006f44")
+	)
+	(wire
+		(pts
+			(xy 273.05 17.78) (xy 278.13 17.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4a1f4f3-a1ad-4858-a67e-4b69294aee11")
 	)
 	(wire
 		(pts
@@ -7770,7 +8133,17 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 91.44) (xy 171.45 91.44)
+			(xy 142.24 92.71) (xy 168.91 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e65fb206-75af-4541-978b-356c3336ea56")
+	)
+	(wire
+		(pts
+			(xy 176.53 91.44) (xy 181.61 91.44)
 		)
 		(stroke
 			(width 0)
@@ -7807,6 +8180,16 @@
 			(type default)
 		)
 		(uuid "e6fa2812-2255-46cd-a985-80bcda3ffb2f")
+	)
+	(wire
+		(pts
+			(xy 142.24 85.09) (xy 181.61 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e773497c-6a99-4795-92d5-4aa4f65cba17")
 	)
 	(wire
 		(pts
@@ -7850,7 +8233,17 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 113.03) (xy 171.45 113.03)
+			(xy 273.05 48.26) (xy 276.86 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebd0dd98-0cf8-4872-9475-d0403445840f")
+	)
+	(wire
+		(pts
+			(xy 179.07 113.03) (xy 181.61 113.03)
 		)
 		(stroke
 			(width 0)
@@ -7910,7 +8303,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 95.25) (xy 154.94 110.49)
+			(xy 165.1 95.25) (xy 165.1 110.49)
 		)
 		(stroke
 			(width 0)
@@ -7960,7 +8353,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 100.33) (xy 171.45 100.33)
+			(xy 179.07 100.33) (xy 181.61 100.33)
 		)
 		(stroke
 			(width 0)
@@ -7990,6 +8383,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 90.17) (xy 172.72 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f869f5f4-b9b2-4d8a-9a49-f31204d07d3b")
+	)
+	(wire
+		(pts
 			(xy 283.21 163.83) (xy 295.91 163.83)
 		)
 		(stroke
@@ -8010,7 +8413,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 132.08) (xy 171.45 132.08)
+			(xy 179.07 132.08) (xy 181.61 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8759,6 +9162,16 @@
 		)
 		(uuid "12281d2f-8be4-4f56-8115-be52ca453df3")
 	)
+	(label "HV_OUT6"
+		(at 278.13 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1a264f3a-2dfd-41f7-90d4-1cc92311fd6d")
+	)
 	(label "CC1"
 		(at 20.32 152.4 180)
 		(effects
@@ -8768,6 +9181,36 @@
 			(justify right bottom)
 		)
 		(uuid "1fb8e22a-19ed-46b7-8c60-8fcba4a143d9")
+	)
+	(label "HV_OUT5"
+		(at 143.51 95.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "262e7f21-8839-4ab6-9c44-c9476a71d6ee")
+	)
+	(label "HV_OUT7"
+		(at 143.51 100.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2cb0e53e-1046-4e15-99c3-966feff2dc82")
+	)
+	(label "HV_OUT5"
+		(at 278.13 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "368b16de-1c24-40f8-a46d-ff2c95ca4097")
 	)
 	(label "TR2"
 		(at 153.67 67.31 0)
@@ -8799,6 +9242,16 @@
 		)
 		(uuid "4906fd9a-f482-4659-a130-4914928e0e22")
 	)
+	(label "HV_OUT3"
+		(at 143.51 90.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4dcb2ace-2726-4287-b277-ecc1d9513e39")
+	)
 	(label "TR1"
 		(at 153.67 64.77 0)
 		(effects
@@ -8828,6 +9281,26 @@
 			(justify left bottom)
 		)
 		(uuid "647791c9-ecfb-4139-82f7-c1bfebb03f3f")
+	)
+	(label "HV_OUT1"
+		(at 246.38 17.78 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "70821fbb-9eb9-4e93-9d55-7a09d9619213")
+	)
+	(label "HV_OUT2"
+		(at 143.51 87.63 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "71430373-cc10-4b0e-8f05-bfcc884d7c2f")
 	)
 	(label "TR4"
 		(at 153.67 72.39 0)
@@ -8859,6 +9332,16 @@
 		)
 		(uuid "9d62767d-655e-4f46-8ce4-54163ec4f7c0")
 	)
+	(label "HV_OUT4"
+		(at 143.51 92.71 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a20c9ab6-4af7-42ee-9a5b-a1017dff6bfa")
+	)
 	(label "TR8"
 		(at 367.03 163.83 0)
 		(effects
@@ -8878,6 +9361,26 @@
 			(justify left bottom)
 		)
 		(uuid "b8129f2a-6407-444d-834b-fa0e0d91c3d3")
+	)
+	(label "HV_OUT2"
+		(at 246.38 31.75 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc4df1aa-a286-473e-a761-06c9b483a0c4")
+	)
+	(label "HV_OUT8"
+		(at 278.13 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c2e87bcb-1b1b-4767-b6cb-1480c6bdae6f")
 	)
 	(label "TR7"
 		(at 153.67 80.01 0)
@@ -8929,6 +9432,26 @@
 		)
 		(uuid "ccc0521b-a791-4113-9d23-e8c150e97148")
 	)
+	(label "HV_OUT7"
+		(at 278.13 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d5506594-b293-4722-a6d9-104cfc0d6662")
+	)
+	(label "HV_OUT4"
+		(at 246.38 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d60c14c8-ad52-4f7b-9d96-6f4f821d34c0")
+	)
 	(label "TR5"
 		(at 270.51 163.83 180)
 		(effects
@@ -8939,6 +9462,16 @@
 		)
 		(uuid "dbc37d4c-6951-4944-8f7b-bb6fd3b8e0ac")
 	)
+	(label "HV_OUT8"
+		(at 143.51 102.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ef93e6b5-2dbe-4fb2-ba23-b12b34614ee5")
+	)
 	(label "TR1"
 		(at 270.51 113.03 180)
 		(effects
@@ -8948,6 +9481,36 @@
 			(justify right bottom)
 		)
 		(uuid "ef9be3d4-dfec-49e9-b631-d90824e503ff")
+	)
+	(label "HV_OUT3"
+		(at 246.38 45.72 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f0f1e718-fd58-4c5b-80ef-d20e773a1599")
+	)
+	(label "HV_OUT1"
+		(at 143.51 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f8a74c5c-9d24-4844-946d-e60564936e7f")
+	)
+	(label "HV_OUT6"
+		(at 143.51 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fd86989c-0eac-4b90-94a6-9263db5b7879")
 	)
 	(hierarchical_label "CH6_B"
 		(shape input)
@@ -9537,7 +10100,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 360.68 124.968 90)
 			(effects
 				(font
@@ -9713,6 +10276,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 276.86 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0890fb68-fb7d-4650-af69-18e66a918bb9")
+		(property "Reference" "#PWR095"
+			(at 276.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.86 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3be99fb4-1659-44f4-8666-0ff22f60e7c9")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "#PWR095")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 168.91 31.75 0)
 		(mirror y)
@@ -9780,6 +10409,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 245.11 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e9aa751-f49c-46da-af79-b2c8da731105")
+		(property "Reference" "#PWR093"
+			(at 245.11 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0fcf457-b71a-4eeb-a3df-8c7d729cefa2")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 54.61 119.38 0)
 		(unit 1)
@@ -9806,7 +10501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 55.5752 123.19 0)
 			(effects
 				(font
@@ -9873,7 +10568,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 334.01 155.448 90)
 			(effects
 				(font
@@ -10276,7 +10971,7 @@
 	)
 	(symbol
 		(lib_id "CONSMA002-SMD:CONSMA002-SMD")
-		(at 171.45 97.79 0)
+		(at 181.61 97.79 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10286,7 +10981,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e7365f2-b74c-48ad-8e44-0079974a7074")
 		(property "Reference" "J5"
-			(at 179.07 98.0439 0)
+			(at 189.23 98.0439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10295,7 +10990,7 @@
 			)
 		)
 		(property "Value" "CONSMA002-SMD"
-			(at 179.07 100.5839 0)
+			(at 189.23 100.5839 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10305,7 +11000,7 @@
 			)
 		)
 		(property "Footprint" "CONSMA002-SMD:TE_CONSMA002-SMD"
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10315,7 +11010,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10324,7 +11019,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10333,7 +11028,7 @@
 			)
 		)
 		(property "MF" "Linx Technologies"
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10343,7 +11038,7 @@
 			)
 		)
 		(property "Description_1" "SMA Female Right-Angle Surface-Mount Connector"
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10353,7 +11048,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10363,7 +11058,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10373,7 +11068,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10383,7 +11078,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=eda"
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10393,7 +11088,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10403,7 +11098,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10413,7 +11108,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10423,7 +11118,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=snap"
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10433,7 +11128,7 @@
 			)
 		)
 		(property "MP" "CONSMA002-SMD"
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10443,7 +11138,7 @@
 			)
 		)
 		(property "CAD_BUILD" "TE OEM"
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10453,7 +11148,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10463,7 +11158,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 171.45 97.79 0)
+			(at 181.61 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10741,7 +11436,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 302.26 131.572 90)
 			(effects
 				(font
@@ -11049,7 +11744,7 @@
 	)
 	(symbol
 		(lib_id "CONSMA002-SMD:CONSMA002-SMD")
-		(at 171.45 85.09 0)
+		(at 181.61 85.09 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11059,7 +11754,7 @@
 		(fields_autoplaced yes)
 		(uuid "27e65e5a-173f-485e-b9ac-1e68e0719206")
 		(property "Reference" "J3"
-			(at 179.07 85.3439 0)
+			(at 189.23 85.3439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11068,7 +11763,7 @@
 			)
 		)
 		(property "Value" "CONSMA002-SMD"
-			(at 179.07 87.8839 0)
+			(at 189.23 87.8839 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11078,7 +11773,7 @@
 			)
 		)
 		(property "Footprint" "CONSMA002-SMD:TE_CONSMA002-SMD"
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11088,7 +11783,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11097,7 +11792,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11106,7 +11801,7 @@
 			)
 		)
 		(property "MF" "Linx Technologies"
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11116,7 +11811,7 @@
 			)
 		)
 		(property "Description_1" "SMA Female Right-Angle Surface-Mount Connector"
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11126,7 +11821,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11136,7 +11831,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11146,7 +11841,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11156,7 +11851,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=eda"
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11166,7 +11861,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11176,7 +11871,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11186,7 +11881,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11196,7 +11891,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=snap"
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11206,7 +11901,7 @@
 			)
 		)
 		(property "MP" "CONSMA002-SMD"
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11216,7 +11911,7 @@
 			)
 		)
 		(property "CAD_BUILD" "TE OEM"
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11226,7 +11921,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11236,7 +11931,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 171.45 85.09 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11423,7 +12118,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 168.91 39.37 0)
 			(effects
 				(font
@@ -11464,7 +12159,7 @@
 	)
 	(symbol
 		(lib_id "CONSMA002-SMD:CONSMA002-SMD")
-		(at 171.45 91.44 0)
+		(at 181.61 91.44 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11474,7 +12169,7 @@
 		(fields_autoplaced yes)
 		(uuid "2bd223b5-cee9-4eea-8ffa-254e2e028f63")
 		(property "Reference" "J4"
-			(at 179.07 91.6939 0)
+			(at 189.23 91.6939 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11483,7 +12178,7 @@
 			)
 		)
 		(property "Value" "CONSMA002-SMD"
-			(at 179.07 94.2339 0)
+			(at 189.23 94.2339 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11493,7 +12188,7 @@
 			)
 		)
 		(property "Footprint" "CONSMA002-SMD:TE_CONSMA002-SMD"
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11503,7 +12198,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11512,7 +12207,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11521,7 +12216,7 @@
 			)
 		)
 		(property "MF" "Linx Technologies"
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11531,7 +12226,7 @@
 			)
 		)
 		(property "Description_1" "SMA Female Right-Angle Surface-Mount Connector"
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11541,7 +12236,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11551,7 +12246,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11561,7 +12256,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11571,7 +12266,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=eda"
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11581,7 +12276,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11591,7 +12286,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11601,7 +12296,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11611,7 +12306,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=snap"
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11621,7 +12316,7 @@
 			)
 		)
 		(property "MP" "CONSMA002-SMD"
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11631,7 +12326,7 @@
 			)
 		)
 		(property "CAD_BUILD" "TE OEM"
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11641,7 +12336,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11651,7 +12346,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 171.45 91.44 0)
+			(at 181.61 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11703,7 +12398,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 302.26 155.448 90)
 			(effects
 				(font
@@ -11836,7 +12531,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 347.98 112.268 90)
 			(effects
 				(font
@@ -11873,6 +12568,138 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "R89")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 276.86 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3110bc5a-3e20-4886-bb4a-8b4c236e0ae2")
+		(property "Reference" "#PWR098"
+			(at 276.86 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.86 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7765e119-cd0c-47ab-9fd0-e08a9d9825d6")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "#PWR098")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3280f57f-a8ce-4aeb-bb90-23b740d3780b")
+		(property "Reference" "#PWR094"
+			(at 245.11 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d779be12-069b-4b26-8d3e-5c8423835f32")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -12103,7 +12930,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 40.3352 92.71 0)
 			(effects
 				(font
@@ -12147,7 +12974,7 @@
 	)
 	(symbol
 		(lib_id "CONSMA002-SMD:CONSMA002-SMD")
-		(at 171.45 116.84 0)
+		(at 181.61 116.84 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -12157,7 +12984,7 @@
 		(fields_autoplaced yes)
 		(uuid "38b90018-6b23-4288-882c-246560f00929")
 		(property "Reference" "J8"
-			(at 179.07 117.0939 0)
+			(at 189.23 117.0939 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12166,7 +12993,7 @@
 			)
 		)
 		(property "Value" "CONSMA002-SMD"
-			(at 179.07 119.6339 0)
+			(at 189.23 119.6339 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12176,7 +13003,7 @@
 			)
 		)
 		(property "Footprint" "CONSMA002-SMD:TE_CONSMA002-SMD"
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12186,7 +13013,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12195,7 +13022,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12204,7 +13031,7 @@
 			)
 		)
 		(property "MF" "Linx Technologies"
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12214,7 +13041,7 @@
 			)
 		)
 		(property "Description_1" "SMA Female Right-Angle Surface-Mount Connector"
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12224,7 +13051,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12234,7 +13061,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12244,7 +13071,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12254,7 +13081,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=eda"
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12264,7 +13091,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12274,7 +13101,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12284,7 +13111,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12294,7 +13121,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=snap"
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12304,7 +13131,7 @@
 			)
 		)
 		(property "MP" "CONSMA002-SMD"
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12314,7 +13141,7 @@
 			)
 		)
 		(property "CAD_BUILD" "TE OEM"
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12324,7 +13151,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12334,7 +13161,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 171.45 116.84 0)
+			(at 181.61 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12454,7 +13281,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 59.182 135.89 90)
 			(effects
 				(font
@@ -12525,7 +13352,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 78.74 118.11 0)
 			(effects
 				(font
@@ -12638,7 +13465,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 168.91 134.62 0)
+		(at 179.07 134.62 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12647,7 +13474,7 @@
 		(fields_autoplaced yes)
 		(uuid "3df7d9b0-f489-41cc-9b50-d9f68e777f93")
 		(property "Reference" "#PWR078"
-			(at 168.91 140.97 0)
+			(at 179.07 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12656,7 +13483,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 168.91 139.7 0)
+			(at 179.07 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12664,7 +13491,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 168.91 134.62 0)
+			(at 179.07 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12673,7 +13500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 168.91 134.62 0)
+			(at 179.07 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12682,7 +13509,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 168.91 134.62 0)
+			(at 179.07 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12729,7 +13556,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 101.092 147.32 90)
 			(effects
 				(font
@@ -12799,7 +13626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 187.96 39.37 0)
 			(effects
 				(font
@@ -12866,7 +13693,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 360.68 162.052 90)
 			(effects
 				(font
@@ -13002,7 +13829,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 162.56 39.37 0)
 			(effects
 				(font
@@ -13202,7 +14029,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 34.29 152.4 0)
 			(effects
 				(font
@@ -14088,7 +14915,7 @@
 	)
 	(symbol
 		(lib_id "CONSMA002-SMD:CONSMA002-SMD")
-		(at 171.45 123.19 0)
+		(at 181.61 123.19 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14098,7 +14925,7 @@
 		(fields_autoplaced yes)
 		(uuid "5c3654bd-e843-45c5-a0b9-220ca99a7595")
 		(property "Reference" "J9"
-			(at 179.07 123.4439 0)
+			(at 189.23 123.4439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14107,7 +14934,7 @@
 			)
 		)
 		(property "Value" "CONSMA002-SMD"
-			(at 179.07 125.9839 0)
+			(at 189.23 125.9839 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14117,7 +14944,7 @@
 			)
 		)
 		(property "Footprint" "CONSMA002-SMD:TE_CONSMA002-SMD"
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14127,7 +14954,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14136,7 +14963,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14145,7 +14972,7 @@
 			)
 		)
 		(property "MF" "Linx Technologies"
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14155,7 +14982,7 @@
 			)
 		)
 		(property "Description_1" "SMA Female Right-Angle Surface-Mount Connector"
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14165,7 +14992,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14175,7 +15002,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14185,7 +15012,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14195,7 +15022,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=eda"
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14205,7 +15032,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14215,7 +15042,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14225,7 +15052,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14235,7 +15062,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=snap"
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14245,7 +15072,7 @@
 			)
 		)
 		(property "MP" "CONSMA002-SMD"
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14255,7 +15082,7 @@
 			)
 		)
 		(property "CAD_BUILD" "TE OEM"
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14265,7 +15092,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14275,7 +15102,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 171.45 123.19 0)
+			(at 181.61 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14552,7 +15379,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 93.472 147.32 90)
 			(effects
 				(font
@@ -14595,6 +15422,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 267.97 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60fd5804-8eba-4185-af5a-9746c8b7cb5a")
+		(property "Reference" "J24"
+			(at 267.97 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 268.605 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 267.97 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 267.97 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70ba2cc2-b85a-4460-8d63-47fdf1bef516")
+		)
+		(pin "1"
+			(uuid "1dd30711-b8e3-4b02-bf4f-e114f20c8aa3")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "J24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 289.56 110.49 270)
 		(mirror x)
@@ -14620,7 +15515,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 289.56 112.268 90)
 			(effects
 				(font
@@ -14688,7 +15583,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 335.28 131.572 90)
 			(effects
 				(font
@@ -14758,7 +15653,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 64.77 135.89 0)
 			(effects
 				(font
@@ -14963,7 +15858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 156.21 39.37 0)
 			(effects
 				(font
@@ -15097,7 +15992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 143.51 39.37 0)
 			(effects
 				(font
@@ -15131,6 +16026,72 @@
 			(project ""
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 24.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6f2fbfe8-1827-4816-9c2e-c9c9ea8f9a58")
+		(property "Reference" "#PWR091"
+			(at 245.11 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a9ed829b-108e-4469-bbae-da4f2f573fc7")
+		)
+		(instances
+			(project ""
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -15638,7 +16599,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 360.68 175.768 90)
 			(effects
 				(font
@@ -15708,7 +16669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 181.61 39.1417 0)
 			(effects
 				(font
@@ -15775,7 +16736,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 276.86 124.968 90)
 			(effects
 				(font
@@ -15812,6 +16773,74 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "R85")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 267.97 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "79546f99-3705-4d5e-9a2f-4a1e94d495aa")
+		(property "Reference" "J25"
+			(at 267.97 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 268.605 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 267.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 267.97 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3b550edc-e22d-4dcc-be31-8e7a379ac8d9")
+		)
+		(pin "1"
+			(uuid "2c392c07-57a9-4df0-99a2-62aa04557a31")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "J25")
 					(unit 1)
 				)
 			)
@@ -15909,7 +16938,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 289.56 163.068 90)
 			(effects
 				(font
@@ -16044,7 +17073,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 18.7452 92.71 0)
 			(effects
 				(font
@@ -16081,6 +17110,72 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 276.86 52.07 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81b1a4f8-516a-4050-b39b-421b598c2f4a")
+		(property "Reference" "#PWR097"
+			(at 276.86 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.86 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf7d4f5c-8156-45fa-a327-aac5381d599c")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -16270,7 +17365,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 23.8252 35.56 0)
 			(effects
 				(font
@@ -16406,7 +17501,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 45.4152 123.19 0)
 			(effects
 				(font
@@ -16450,7 +17545,7 @@
 	)
 	(symbol
 		(lib_id "CONSMA002-SMD:CONSMA002-SMD")
-		(at 171.45 104.14 0)
+		(at 181.61 104.14 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -16460,7 +17555,7 @@
 		(fields_autoplaced yes)
 		(uuid "84b83be9-ded7-4e6d-a904-abac5f9f748b")
 		(property "Reference" "J6"
-			(at 179.07 104.3939 0)
+			(at 189.23 104.3939 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16469,7 +17564,7 @@
 			)
 		)
 		(property "Value" "CONSMA002-SMD"
-			(at 179.07 106.9339 0)
+			(at 189.23 106.9339 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16479,7 +17574,7 @@
 			)
 		)
 		(property "Footprint" "CONSMA002-SMD:TE_CONSMA002-SMD"
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16489,7 +17584,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16498,7 +17593,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16507,7 +17602,7 @@
 			)
 		)
 		(property "MF" "Linx Technologies"
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16517,7 +17612,7 @@
 			)
 		)
 		(property "Description_1" "SMA Female Right-Angle Surface-Mount Connector"
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16527,7 +17622,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16537,7 +17632,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16547,7 +17642,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16557,7 +17652,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=eda"
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16567,7 +17662,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16577,7 +17672,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16587,7 +17682,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16597,7 +17692,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=snap"
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16607,7 +17702,7 @@
 			)
 		)
 		(property "MP" "CONSMA002-SMD"
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16617,7 +17712,7 @@
 			)
 		)
 		(property "CAD_BUILD" "TE OEM"
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16627,7 +17722,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16637,7 +17732,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 171.45 104.14 0)
+			(at 181.61 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16690,7 +17785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 335.28 182.372 90)
 			(effects
 				(font
@@ -16760,7 +17855,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 360.68 111.252 90)
 			(effects
 				(font
@@ -17028,7 +18123,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 276.86 111.252 90)
 			(effects
 				(font
@@ -17138,7 +18233,7 @@
 	)
 	(symbol
 		(lib_id "CONSMA002-SMD:CONSMA002-SMD")
-		(at 171.45 129.54 0)
+		(at 181.61 129.54 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17148,7 +18243,7 @@
 		(fields_autoplaced yes)
 		(uuid "8df3370c-add3-4708-aa52-d19a5075b425")
 		(property "Reference" "J10"
-			(at 179.07 129.7939 0)
+			(at 189.23 129.7939 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17157,7 +18252,7 @@
 			)
 		)
 		(property "Value" "CONSMA002-SMD"
-			(at 179.07 132.3339 0)
+			(at 189.23 132.3339 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17167,7 +18262,7 @@
 			)
 		)
 		(property "Footprint" "CONSMA002-SMD:TE_CONSMA002-SMD"
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17177,7 +18272,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17186,7 +18281,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17195,7 +18290,7 @@
 			)
 		)
 		(property "MF" "Linx Technologies"
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17205,7 +18300,7 @@
 			)
 		)
 		(property "Description_1" "SMA Female Right-Angle Surface-Mount Connector"
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17215,7 +18310,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17225,7 +18320,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17235,7 +18330,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17245,7 +18340,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=eda"
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17255,7 +18350,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17265,7 +18360,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17275,7 +18370,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17285,7 +18380,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=snap"
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17295,7 +18390,7 @@
 			)
 		)
 		(property "MP" "CONSMA002-SMD"
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17305,7 +18400,7 @@
 			)
 		)
 		(property "CAD_BUILD" "TE OEM"
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17315,7 +18410,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17325,7 +18420,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 171.45 129.54 0)
+			(at 181.61 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17347,6 +18442,74 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "J10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 267.97 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "8fe7ebe2-517c-46ce-ac1b-9d7622e50978")
+		(property "Reference" "J23"
+			(at 267.97 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 268.605 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 267.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 267.97 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ea9c06df-6a21-42db-bba2-9e48a874c80e")
+		)
+		(pin "1"
+			(uuid "be5d8a2b-c156-4de1-a04b-c190d2f812f1")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "J23")
 					(unit 1)
 				)
 			)
@@ -17413,6 +18576,72 @@
 			(project ""
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 276.86 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "970bfccc-0e54-4e72-abc1-1fdabf21a506")
+		(property "Reference" "#PWR096"
+			(at 276.86 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 276.86 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 276.86 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c954953f-6217-436a-a007-05eaabb84cb6")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -17512,7 +18741,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 276.86 175.768 90)
 			(effects
 				(font
@@ -17581,7 +18810,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 50.4952 92.71 0)
 			(effects
 				(font
@@ -17649,7 +18878,7 @@
 				)
 			)
 		)
-		(property "Footprint" "CDFN4_2P5X2_MCH"
+		(property "Footprint" "DSC1001DI2-125.0000T:CDFN4_2P5X2_MCH"
 			(at 34.29 24.13 0)
 			(effects
 				(font
@@ -17726,7 +18955,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 28.9052 92.71 0)
 			(effects
 				(font
@@ -17925,7 +19154,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x08_P2.54mm_Vertical"
 			(at 86.36 248.92 0)
 			(effects
 				(font
@@ -18260,7 +19489,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 347.98 174.752 90)
 			(effects
 				(font
@@ -18297,6 +19526,74 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "R96")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 236.22 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ade32d51-c02b-430c-868d-68186dd9d814")
+		(property "Reference" "J19"
+			(at 236.22 30.226 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 236.855 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 236.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 236.22 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1bdd3192-5280-4489-ae4e-828340723f08")
+		)
+		(pin "1"
+			(uuid "f599a099-570d-4d30-bf29-9f12ec59c0b8")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -18685,7 +19982,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 347.98 123.952 90)
 			(effects
 				(font
@@ -18754,7 +20051,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 256.2352 121.92 0)
 			(effects
 				(font
@@ -18981,7 +20278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 53.0352 64.77 0)
 			(effects
 				(font
@@ -19018,6 +20315,74 @@
 			(project ""
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 236.22 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4201270-e5a8-48d1-9227-81354932d405")
+		(property "Reference" "J18"
+			(at 236.22 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 236.855 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 236.22 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 236.22 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1b21a2b4-ea37-4640-bfc0-c9f705cb9b72")
+		)
+		(pin "1"
+			(uuid "5f289f91-81f1-4e53-8f4c-f9782f48f576")
+		)
+		(instances
+			(project ""
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -19339,7 +20704,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC_9354IDR_TEX"
+		(property "Footprint" "TLV9354IDR:SOIC_9354IDR_TEX"
 			(at 295.91 161.29 0)
 			(effects
 				(font
@@ -19800,7 +21165,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 302.26 104.648 90)
 			(effects
 				(font
@@ -19869,7 +21234,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 33.9852 123.19 0)
 			(effects
 				(font
@@ -19939,7 +21304,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 149.86 39.37 0)
 			(effects
 				(font
@@ -20005,7 +21370,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 256.2352 172.72 0)
 			(effects
 				(font
@@ -20073,7 +21438,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 302.26 182.372 90)
 			(effects
 				(font
@@ -20208,7 +21573,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 276.86 162.052 90)
 			(effects
 				(font
@@ -20278,7 +21643,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
 			(at 175.26 39.37 0)
 			(effects
 				(font
@@ -20319,7 +21684,7 @@
 	)
 	(symbol
 		(lib_id "CONSMA002-SMD:CONSMA002-SMD")
-		(at 171.45 110.49 0)
+		(at 181.61 110.49 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20329,7 +21694,7 @@
 		(fields_autoplaced yes)
 		(uuid "de7255ae-e06e-49f4-bb37-65bdd4bf0137")
 		(property "Reference" "J7"
-			(at 179.07 110.7439 0)
+			(at 189.23 110.7439 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20338,7 +21703,7 @@
 			)
 		)
 		(property "Value" "CONSMA002-SMD"
-			(at 179.07 113.2839 0)
+			(at 189.23 113.2839 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20348,7 +21713,7 @@
 			)
 		)
 		(property "Footprint" "CONSMA002-SMD:TE_CONSMA002-SMD"
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20358,7 +21723,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20367,7 +21732,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20376,7 +21741,7 @@
 			)
 		)
 		(property "MF" "Linx Technologies"
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20386,7 +21751,7 @@
 			)
 		)
 		(property "Description_1" "SMA Female Right-Angle Surface-Mount Connector"
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20396,7 +21761,7 @@
 			)
 		)
 		(property "CREATOR" "DIZAR"
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20406,7 +21771,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20416,7 +21781,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20426,7 +21791,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=eda"
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20436,7 +21801,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20446,7 +21811,7 @@
 			)
 		)
 		(property "PARTREV" "D"
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20456,7 +21821,7 @@
 			)
 		)
 		(property "VERIFIER" ""
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20466,7 +21831,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CONSMA002-SMD/TE+Connectivity/view-part/?ref=snap"
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20476,7 +21841,7 @@
 			)
 		)
 		(property "MP" "CONSMA002-SMD"
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20486,7 +21851,7 @@
 			)
 		)
 		(property "CAD_BUILD" "TE OEM"
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20496,7 +21861,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20506,7 +21871,7 @@
 			)
 		)
 		(property "MANUFACTURER" "TE Connectivity"
-			(at 171.45 110.49 0)
+			(at 181.61 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20528,6 +21893,74 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 267.97 17.78 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "deef9e8f-66bd-4c22-b92b-a0fb4be81f49")
+		(property "Reference" "J22"
+			(at 267.97 16.256 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 268.605 15.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 267.97 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 267.97 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a9563479-1524-4e7a-8ab8-cd99716d86cd")
+		)
+		(pin "1"
+			(uuid "31d9bc1c-417c-4d7f-ae9f-abb44d0e973e")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -20626,7 +22059,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 23.8252 123.19 0)
 			(effects
 				(font
@@ -20892,6 +22325,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 245.11 38.1 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6f28aea-b975-426d-8a76-5735bf29b0f7")
+		(property "Reference" "#PWR092"
+			(at 245.11 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 245.11 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a05cd61f-e1db-49d1-bd20-cc21d0c8c605")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "#PWR092")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 68.58 254 90)
 		(unit 1)
@@ -20982,7 +22481,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 347.98 163.068 90)
 			(effects
 				(font
@@ -21049,7 +22548,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 335.28 104.648 90)
 			(effects
 				(font
@@ -21251,7 +22750,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 18.7452 64.77 0)
 			(effects
 				(font
@@ -21320,7 +22819,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 41.6052 64.77 0)
 			(effects
 				(font
@@ -21521,6 +23020,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 236.22 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f4a33cab-f533-407f-9e76-76e1c718856a")
+		(property "Reference" "J21"
+			(at 236.22 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 236.855 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 236.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 236.22 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b83e306-3d44-4e52-8ca4-892af5446e75")
+		)
+		(pin "1"
+			(uuid "6907c43c-1c9b-4b4a-ba62-b5bcddc20079")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "J21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 289.56 125.73 270)
 		(unit 1)
@@ -21545,7 +23112,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 289.56 123.952 90)
 			(effects
 				(font
@@ -21836,7 +23403,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC_9354IDR_TEX"
+		(property "Footprint" "TLV9354IDR:SOIC_9354IDR_TEX"
 			(at 295.91 110.49 0)
 			(effects
 				(font
@@ -21917,6 +23484,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 236.22 45.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fd0ad166-2c6a-4000-8e37-0105205e3c3e")
+		(property "Reference" "J20"
+			(at 236.22 44.196 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 236.855 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 236.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 236.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 236.22 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a94df08-4265-4a98-a43a-ac39ffa50b54")
+		)
+		(pin "1"
+			(uuid "83652273-c0c3-4b26-b858-f08b7bc3edc0")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Jumper:SolderJumper_3_Open")
 		(at 26.67 152.4 270)
 		(mirror x)
@@ -21945,7 +23580,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-3_P1.3mm_Open_Pad1.0x1.5mm"
 			(at 26.67 152.4 0)
 			(effects
 				(font
@@ -22015,7 +23650,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 289.56 174.752 90)
 			(effects
 				(font
