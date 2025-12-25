@@ -10319,7 +10319,7 @@
 		)
 		(uuid "c9c4efce-fad4-4813-b5a2-5c6ca76457be")
 	)
-	(label "CH4_B"
+	(label "CH4_B_MCU"
 		(at 309.88 153.67 0)
 		(effects
 			(font
@@ -10349,7 +10349,7 @@
 		)
 		(uuid "d3eb8c94-e311-4fc6-abee-4b88a26ca92b")
 	)
-	(label "CH8_B"
+	(label "CH8_B_MCU"
 		(at 309.88 151.13 0)
 		(effects
 			(font
@@ -10492,7 +10492,7 @@
 	)
 	(hierarchical_label "ADC7"
 		(shape input)
-		(at 243.84 57.15 180)
+		(at 243.84 62.23 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10525,7 +10525,7 @@
 	)
 	(hierarchical_label "ADC8"
 		(shape input)
-		(at 243.84 44.45 180)
+		(at 243.84 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10547,7 +10547,7 @@
 	)
 	(hierarchical_label "ADC3"
 		(shape input)
-		(at 243.84 39.37 180)
+		(at 243.84 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10569,7 +10569,7 @@
 	)
 	(hierarchical_label "AFE_GAIN_B2"
 		(shape output)
-		(at 317.5 123.19 0)
+		(at 317.5 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10591,7 +10591,7 @@
 	)
 	(hierarchical_label "ADC5"
 		(shape input)
-		(at 243.84 64.77 180)
+		(at 243.84 44.45 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10657,7 +10657,7 @@
 	)
 	(hierarchical_label "AFE_GAIN_B1"
 		(shape output)
-		(at 317.5 120.65 0)
+		(at 317.5 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10723,7 +10723,7 @@
 	)
 	(hierarchical_label "AFE_GAIN_A1"
 		(shape output)
-		(at 317.5 59.69 0)
+		(at 317.5 123.19 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10778,7 +10778,7 @@
 	)
 	(hierarchical_label "ADC6"
 		(shape input)
-		(at 243.84 62.23 180)
+		(at 243.84 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10789,7 +10789,7 @@
 	)
 	(hierarchical_label "AFE_GAIN_A2"
 		(shape output)
-		(at 317.5 69.85 0)
+		(at 317.5 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10811,7 +10811,7 @@
 	)
 	(hierarchical_label "ADC1"
 		(shape input)
-		(at 243.84 36.83 180)
+		(at 243.84 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
