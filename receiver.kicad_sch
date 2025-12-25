@@ -11726,7 +11726,7 @@
 		(uuid "3c75c3f7-b327-4220-bab8-71848838f438")
 	)
 	(label "TR_OUT7"
-		(at 306.07 72.39 180)
+		(at 306.07 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11976,7 +11976,7 @@
 		(uuid "7aea1b51-48e1-4278-9dbb-c792cf79974a")
 	)
 	(label "TR_OUT6"
-		(at 306.07 69.85 180)
+		(at 306.07 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12006,7 +12006,7 @@
 		(uuid "7bf5ac16-762a-4529-ae63-073b2668af7c")
 	)
 	(label "TR_OUT5"
-		(at 306.07 67.31 180)
+		(at 306.07 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12176,7 +12176,7 @@
 		(uuid "b301ce9d-0e06-4381-bae2-ff10d63ea528")
 	)
 	(label "TR_OUT1"
-		(at 104.14 66.04 180)
+		(at 104.14 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12296,7 +12296,7 @@
 		(uuid "d065189f-c5b5-4909-b002-86b4d2f8946e")
 	)
 	(label "TR_OUT3"
-		(at 104.14 71.12 180)
+		(at 104.14 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12306,7 +12306,7 @@
 		(uuid "d0ce100c-8d9a-479b-8173-988283ae52b0")
 	)
 	(label "TR_OUT8"
-		(at 306.07 74.93 180)
+		(at 306.07 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12406,7 +12406,7 @@
 		(uuid "dc4d6bc9-dcf5-4e4d-ad7c-02444d45f5ec")
 	)
 	(label "TR_OUT4"
-		(at 104.14 73.66 180)
+		(at 104.14 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12486,7 +12486,7 @@
 		(uuid "e78c6b9a-0bc3-4a3f-9a0d-cdb41faf778d")
 	)
 	(label "TR_OUT2"
-		(at 104.14 68.58 180)
+		(at 104.14 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12548,7 +12548,7 @@
 	)
 	(hierarchical_label "TR_OUT2"
 		(shape input)
-		(at 24.13 68.58 180)
+		(at 24.13 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12570,7 +12570,7 @@
 	)
 	(hierarchical_label "TR_OUT8"
 		(shape input)
-		(at 226.06 74.93 180)
+		(at 226.06 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12581,7 +12581,7 @@
 	)
 	(hierarchical_label "TR_OUT5"
 		(shape input)
-		(at 226.06 67.31 180)
+		(at 226.06 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12592,7 +12592,7 @@
 	)
 	(hierarchical_label "TR_OUT7"
 		(shape input)
-		(at 226.06 72.39 180)
+		(at 226.06 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12636,7 +12636,7 @@
 	)
 	(hierarchical_label "TR_OUT1"
 		(shape input)
-		(at 24.13 66.04 180)
+		(at 24.13 68.58 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12669,7 +12669,7 @@
 	)
 	(hierarchical_label "TR_OUT6"
 		(shape input)
-		(at 226.06 69.85 180)
+		(at 226.06 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12680,7 +12680,7 @@
 	)
 	(hierarchical_label "TR_OUT3"
 		(shape input)
-		(at 24.13 71.12 180)
+		(at 24.13 73.66 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12691,7 +12691,7 @@
 	)
 	(hierarchical_label "TR_OUT4"
 		(shape input)
-		(at 24.13 73.66 180)
+		(at 24.13 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
