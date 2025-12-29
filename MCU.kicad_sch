@@ -9630,7 +9630,7 @@
 		)
 	)
 	(label "JTAG_TDO"
-		(at 190.5 254 0)
+		(at 190.5 256.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9710,7 +9710,7 @@
 		(uuid "1133985a-1413-4a1f-a72b-cc5084b31363")
 	)
 	(label "JTAG_TCK"
-		(at 190.5 256.54 0)
+		(at 190.5 259.08 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10370,7 +10370,7 @@
 		(uuid "d88f4148-cacf-41ec-b198-4c6acda176a9")
 	)
 	(label "JTAG_TMS"
-		(at 190.5 259.08 0)
+		(at 190.5 254 0)
 		(effects
 			(font
 				(size 1.27 1.27)
