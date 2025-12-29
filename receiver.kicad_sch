@@ -12548,7 +12548,7 @@
 	)
 	(hierarchical_label "TR_OUT2"
 		(shape input)
-		(at 24.13 71.12 180)
+		(at 24.13 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12570,7 +12570,7 @@
 	)
 	(hierarchical_label "TR_OUT8"
 		(shape input)
-		(at 226.06 67.31 180)
+		(at 226.06 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12669,7 +12669,7 @@
 	)
 	(hierarchical_label "TR_OUT6"
 		(shape input)
-		(at 226.06 72.39 180)
+		(at 226.06 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12691,7 +12691,7 @@
 	)
 	(hierarchical_label "TR_OUT4"
 		(shape input)
-		(at 24.13 66.04 180)
+		(at 24.13 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
