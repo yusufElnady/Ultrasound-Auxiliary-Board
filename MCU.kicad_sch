@@ -10547,7 +10547,7 @@
 	)
 	(hierarchical_label "ADC3"
 		(shape input)
-		(at 243.84 36.83 180)
+		(at 243.84 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10635,7 +10635,7 @@
 	)
 	(hierarchical_label "ADC4"
 		(shape input)
-		(at 243.84 34.29 180)
+		(at 243.84 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10811,7 +10811,7 @@
 	)
 	(hierarchical_label "ADC1"
 		(shape input)
-		(at 243.84 39.37 180)
+		(at 243.84 36.83 180)
 		(effects
 			(font
 				(size 1.27 1.27)

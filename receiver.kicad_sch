@@ -11505,6 +11505,16 @@
 		)
 		(uuid "0e45e0fd-666e-4d64-8802-fcb8ceaef3f5")
 	)
+	(label "ADC2_L"
+		(at 129.54 205.74 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0e4c26b5-3ca3-4148-a780-d8a4d50d28fc")
+	)
 	(label "VGAA7_N"
 		(at 394.97 46.99 0)
 		(effects
@@ -11645,15 +11655,15 @@
 		)
 		(uuid "2a97bdda-2828-4bc0-9706-280cf253ab38")
 	)
-	(label "ADC1_L"
-		(at 129.54 205.74 180)
+	(label "ADC2_H"
+		(at 129.54 208.28 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "2e96593c-0bf7-428e-a7a6-9e5e9c8cfe49")
+		(uuid "31a5edf4-6b82-455e-8def-f0ee9ca118da")
 	)
 	(label "LNAA1_P"
 		(at 161.29 60.96 0)
@@ -11805,6 +11815,16 @@
 		)
 		(uuid "51c81b88-e5e1-4c64-abff-af7b991dcdf9")
 	)
+	(label "ADC1_L"
+		(at 157.48 215.9 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "52103fae-2886-4aa9-8752-fa3eaf3c3d38")
+	)
 	(label "ADC3_L"
 		(at 269.24 215.9 0)
 		(effects
@@ -11844,16 +11864,6 @@
 			(justify left bottom)
 		)
 		(uuid "581dd704-c73e-4951-9083-dfd1a136015f")
-	)
-	(label "ADC2_H"
-		(at 157.48 213.36 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58932cca-fd52-4c87-a753-ff3046214c25")
 	)
 	(label "GAIN12_A"
 		(at 101.6 139.7 180)
@@ -11905,16 +11915,6 @@
 		)
 		(uuid "68c964c5-c7c8-4279-88f6-adf64d73b325")
 	)
-	(label "ADC1_H"
-		(at 129.54 208.28 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6f7f19a0-3224-4c5e-bd2d-b36453100f25")
-	)
 	(label "ADC3_H"
 		(at 269.24 213.36 0)
 		(effects
@@ -11934,6 +11934,16 @@
 			(justify left bottom)
 		)
 		(uuid "74a0f5c0-6a0f-447f-a745-ea0e8d52dacd")
+	)
+	(label "ADC1_H"
+		(at 157.48 213.36 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "75771eb3-bd35-4841-8efc-389cc906e5cf")
 	)
 	(label "ADC8_L"
 		(at 284.48 254 0)
@@ -12325,16 +12335,6 @@
 		)
 		(uuid "d31d7699-4403-4d11-bbc2-bd4fd63920df")
 	)
-	(label "ADC2_L"
-		(at 157.48 215.9 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d3d5e8a0-8b12-400d-acd6-53b5af661249")
-	)
 	(label "LNAA4_P"
 		(at 161.29 68.58 0)
 		(effects
@@ -12406,7 +12406,7 @@
 		(uuid "dc4d6bc9-dcf5-4e4d-ad7c-02444d45f5ec")
 	)
 	(label "TR_OUT4"
-		(at 104.14 66.04 180)
+		(at 104.14 71.12 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12486,7 +12486,7 @@
 		(uuid "e78c6b9a-0bc3-4a3f-9a0d-cdb41faf778d")
 	)
 	(label "TR_OUT2"
-		(at 104.14 71.12 180)
+		(at 104.14 66.04 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12625,7 +12625,7 @@
 	)
 	(hierarchical_label "ADC2"
 		(shape output)
-		(at 203.2 228.6 0)
+		(at 204.47 190.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12735,7 +12735,7 @@
 	)
 	(hierarchical_label "ADC1"
 		(shape output)
-		(at 204.47 190.5 0)
+		(at 203.2 228.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
