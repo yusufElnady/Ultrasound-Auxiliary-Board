@@ -11986,7 +11986,7 @@
 		(uuid "7aea1b51-48e1-4278-9dbb-c792cf79974a")
 	)
 	(label "TR_OUT6"
-		(at 306.07 72.39 180)
+		(at 306.07 67.31 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12316,7 +12316,7 @@
 		(uuid "d0ce100c-8d9a-479b-8173-988283ae52b0")
 	)
 	(label "TR_OUT8"
-		(at 306.07 67.31 180)
+		(at 306.07 72.39 180)
 		(effects
 			(font
 				(size 1.27 1.27)
