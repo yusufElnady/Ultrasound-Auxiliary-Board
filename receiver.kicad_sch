@@ -6532,7 +6532,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 228.6) (xy 223.52 228.6)
+			(xy 219.71 228.6) (xy 223.52 228.6)
 		)
 		(stroke
 			(width 0)
@@ -11605,6 +11605,16 @@
 		)
 		(uuid "1d130d33-1fc0-4185-a1a4-e71d981af628")
 	)
+	(label "ADC3_H"
+		(at 297.18 208.28 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1fbd2054-2937-4dee-aed9-1857d30349ea")
+	)
 	(label "VGAA1_N"
 		(at 102.87 104.14 180)
 		(effects
@@ -11825,16 +11835,6 @@
 		)
 		(uuid "52103fae-2886-4aa9-8752-fa3eaf3c3d38")
 	)
-	(label "ADC3_L"
-		(at 269.24 215.9 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "54b8df39-cd43-4da2-b8a3-eaac3b99cdbb")
-	)
 	(label "CLAMP12_A"
 		(at 102.87 129.54 180)
 		(effects
@@ -11885,6 +11885,16 @@
 		)
 		(uuid "5f7976dc-eb0f-4694-b15f-091411765ab5")
 	)
+	(label "ADC4_L"
+		(at 269.24 215.9 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "60f7eded-442a-40ca-b923-ed05f796f977")
+	)
 	(label "LNAA3_P"
 		(at 161.29 66.04 0)
 		(effects
@@ -11915,16 +11925,6 @@
 		)
 		(uuid "68c964c5-c7c8-4279-88f6-adf64d73b325")
 	)
-	(label "ADC3_H"
-		(at 269.24 213.36 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6fe18835-7328-40ad-b383-943ff899a034")
-	)
 	(label "ADC4_L"
 		(at 146.05 93.98 0)
 		(effects
@@ -11954,16 +11954,6 @@
 			(justify left bottom)
 		)
 		(uuid "78782489-e086-4102-ad56-b9c2a604d26d")
-	)
-	(label "ADC4_L"
-		(at 297.18 205.74 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "79a01263-e8bd-405a-b01b-7e54fd734e84")
 	)
 	(label "GAIN12_B"
 		(at 303.53 140.97 180)
@@ -12125,6 +12115,16 @@
 		)
 		(uuid "9e3cfba3-ba6d-4380-b41a-950a03e9d19d")
 	)
+	(label "ADC4_H"
+		(at 269.24 213.36 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9f5e4296-22d6-40a2-94a9-1b596a061f17")
+	)
 	(label "CLAMP34_A"
 		(at 102.87 132.08 180)
 		(effects
@@ -12204,16 +12204,6 @@
 			(justify left bottom)
 		)
 		(uuid "b5c33f6f-22b2-48a4-ae72-ad0b1f3ab0b3")
-	)
-	(label "ADC4_H"
-		(at 297.18 208.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b6e71c45-1b32-408c-ae56-40f239a0357f")
 	)
 	(label "ADC3_H"
 		(at 146.05 78.74 0)
@@ -12475,6 +12465,16 @@
 		)
 		(uuid "e62aa0e9-27e5-42ab-a6ee-cfa9ef71fb53")
 	)
+	(label "ADC3_L"
+		(at 297.18 205.74 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e72d2d14-d21b-4a68-ba8c-e6179bf198d5")
+	)
 	(label "ADC5_L"
 		(at 116.84 254 180)
 		(effects
@@ -12702,7 +12702,7 @@
 	)
 	(hierarchical_label "ADC3"
 		(shape output)
-		(at 222.25 228.6 180)
+		(at 222.25 190.5 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12724,7 +12724,7 @@
 	)
 	(hierarchical_label "ADC4"
 		(shape output)
-		(at 222.25 190.5 180)
+		(at 219.71 228.6 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12912,7 +12912,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V_VFD"
 			(at 279.4 115.57 0)
 			(effects
 				(font
@@ -14420,7 +14420,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V_VFD"
 			(at 77.47 114.3 0)
 			(effects
 				(font
@@ -17457,7 +17457,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V_VFD"
 			(at 162.56 231.14 0)
 			(effects
 				(font
@@ -17523,7 +17523,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V_VFD"
 			(at 175.26 182.88 0)
 			(effects
 				(font
@@ -22245,7 +22245,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V_VFD"
 			(at 63.5 36.83 0)
 			(effects
 				(font
@@ -23215,7 +23215,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+5V_VFD"
 			(at 265.43 38.1 0)
 			(effects
 				(font

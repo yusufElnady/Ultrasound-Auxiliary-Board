@@ -10000,7 +10000,7 @@
 		(uuid "6debc238-0027-4ea4-86e5-8d90b6a308a8")
 	)
 	(label "RS232_FOFF"
-		(at 309.88 148.59 0)
+		(at 309.88 156.21 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10200,7 +10200,7 @@
 		(uuid "a223d3b4-cd8e-4001-a88b-3e3653d8f554")
 	)
 	(label "RS232_FON"
-		(at 309.88 156.21 0)
+		(at 309.88 148.59 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10481,7 +10481,7 @@
 	)
 	(hierarchical_label "MODE0"
 		(shape output)
-		(at 317.5 146.05 0)
+		(at 317.5 138.43 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10503,7 +10503,7 @@
 	)
 	(hierarchical_label "MODE1"
 		(shape output)
-		(at 317.5 138.43 0)
+		(at 317.5 146.05 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10547,7 +10547,7 @@
 	)
 	(hierarchical_label "ADC3"
 		(shape input)
-		(at 243.84 34.29 180)
+		(at 243.84 39.37 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10635,7 +10635,7 @@
 	)
 	(hierarchical_label "ADC4"
 		(shape input)
-		(at 243.84 39.37 180)
+		(at 243.84 34.29 180)
 		(effects
 			(font
 				(size 1.27 1.27)
