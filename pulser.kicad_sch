@@ -3672,6 +3672,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3V0"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3V0"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3V0\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3V0_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3V0_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -4182,6 +4307,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4d0ede55-fa73-4bb4-859c-69aa075893b6")
+	)
+	(junction
+		(at 177.8 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "50341638-b470-44b8-a8d5-65696659ca53")
 	)
 	(junction
 		(at 168.91 34.29)
@@ -5991,6 +6122,16 @@
 	)
 	(wire
 		(pts
+			(xy 187.96 78.74) (xy 187.96 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c2566c2-90d3-4d45-8353-02272a2d3928")
+	)
+	(wire
+		(pts
 			(xy 241.3 59.69) (xy 246.38 59.69)
 		)
 		(stroke
@@ -6621,7 +6762,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 104.14) (xy 181.61 104.14)
+			(xy 168.91 104.14) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -6678,6 +6819,16 @@
 			(type default)
 		)
 		(uuid "9be10f5b-24b8-4cf3-942d-a108977f3194")
+	)
+	(wire
+		(pts
+			(xy 187.96 81.28) (xy 177.8 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9be767fd-9fd8-4622-9a7b-1ee6676c4ba8")
 	)
 	(wire
 		(pts
@@ -7181,6 +7332,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 104.14) (xy 181.61 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba81189c-01fb-4fd5-b6e6-7375b5cae559")
+	)
+	(wire
+		(pts
 			(xy 99.06 105.41) (xy 106.68 105.41)
 		)
 		(stroke
@@ -7458,6 +7619,16 @@
 			(type default)
 		)
 		(uuid "cc5dcbb5-6eeb-483b-92b2-612dc22ac275")
+	)
+	(wire
+		(pts
+			(xy 177.8 81.28) (xy 177.8 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc643435-d03a-420a-8f1e-51cf9943a15e")
 	)
 	(wire
 		(pts
@@ -10537,6 +10708,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
@@ -11045,6 +11217,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
@@ -14548,6 +14721,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
@@ -15891,6 +16065,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
@@ -16050,6 +16225,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
@@ -18989,6 +19165,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
@@ -19482,6 +19659,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
@@ -20139,6 +20317,7 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
 		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
@@ -23518,6 +23697,72 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "R94")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V0")
+		(at 187.96 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ff857035-6102-419d-94de-897ae50f92b9")
+		(property "Reference" "#PWR0183"
+			(at 187.96 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "HV_OUT_TAP"
+			(at 187.96 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 187.96 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V0\""
+			(at 187.96 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "60dbec3d-b000-4eb0-a02b-0f312ce56b54")
+		)
+		(instances
+			(project ""
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
