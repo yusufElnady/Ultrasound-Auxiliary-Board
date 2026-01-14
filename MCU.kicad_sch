@@ -6407,12 +6407,12 @@
 		(uuid "0fa91cd7-8155-4840-84bb-73ab31ca8f8d")
 	)
 	(no_connect
-		(at 198.12 233.68)
-		(uuid "3ca09ed8-764a-4fb4-b46a-2dac97681ee3")
-	)
-	(no_connect
 		(at 179.07 124.46)
 		(uuid "736b54ad-373b-4762-8261-f58d5c956893")
+	)
+	(no_connect
+		(at 203.2 233.68)
+		(uuid "781b23a4-4faa-4425-8cf6-abef9515fc5d")
 	)
 	(no_connect
 		(at 97.79 205.74)
@@ -6421,10 +6421,6 @@
 	(no_connect
 		(at 97.79 208.28)
 		(uuid "92e31a80-1bd9-48bf-9419-49c092acca10")
-	)
-	(no_connect
-		(at 280.67 40.64)
-		(uuid "94d66e33-f15d-461c-8881-af36a7ce5961")
 	)
 	(no_connect
 		(at 341.63 38.1)
@@ -10280,6 +10276,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 40.64) (xy 280.67 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8468a06-1052-4db5-95cf-163c72451efa")
+	)
+	(wire
+		(pts
 			(xy 97.79 82.55) (xy 99.06 82.55)
 		)
 		(stroke
@@ -10620,7 +10626,7 @@
 	)
 	(wire
 		(pts
-			(xy 203.2 229.87) (xy 203.2 233.68)
+			(xy 200.66 229.87) (xy 200.66 233.68)
 		)
 		(stroke
 			(width 0)
@@ -11080,7 +11086,7 @@
 	)
 	(wire
 		(pts
-			(xy 200.66 229.87) (xy 200.66 233.68)
+			(xy 198.12 229.87) (xy 198.12 233.68)
 		)
 		(stroke
 			(width 0)
@@ -12210,7 +12216,7 @@
 		(uuid "358ac60f-71c5-4094-986b-075effc7dee8")
 	)
 	(label "vpp_tap"
-		(at 203.2 229.87 90)
+		(at 200.66 229.87 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12220,7 +12226,7 @@
 		(uuid "360e718f-ca82-4996-861c-278eac9f46d1")
 	)
 	(label "-5v_pulse_tap"
-		(at 234.95 229.87 90)
+		(at 265.43 229.87 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12290,7 +12296,7 @@
 		(uuid "5019fbd3-0457-4920-bd5f-7298dc4552be")
 	)
 	(label "12V_tap"
-		(at 278.13 53.34 180)
+		(at 276.86 40.64 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12358,6 +12364,16 @@
 			(justify left bottom)
 		)
 		(uuid "5f3318cd-1ce9-4cff-b7b2-68454988f819")
+	)
+	(label "HV_tap"
+		(at 278.13 60.96 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "60b01d0e-ddbb-409d-8975-869b3edfe50c")
 	)
 	(label "RS232_TX"
 		(at 44.45 243.84 0)
@@ -12510,7 +12526,7 @@
 		(uuid "7f7438e8-5753-4a43-8120-3b41bc3a50ce")
 	)
 	(label "vnn_tap"
-		(at 200.66 229.87 90)
+		(at 198.12 229.87 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12520,7 +12536,7 @@
 		(uuid "806d51d4-84cb-4c0b-94ac-8913c082922f")
 	)
 	(label "5v_pulse_tap"
-		(at 278.13 58.42 180)
+		(at 278.13 53.34 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12600,7 +12616,7 @@
 		(uuid "8f99c725-9144-4770-b637-7993115f5b6e")
 	)
 	(label "12V_tap"
-		(at 265.43 229.87 90)
+		(at 234.95 229.87 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12630,7 +12646,7 @@
 		(uuid "916401fb-bd17-4cce-9081-ddc3ad67797f")
 	)
 	(label "7v_vfd_tap"
-		(at 229.87 229.87 90)
+		(at 232.41 229.87 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12810,7 +12826,7 @@
 		(uuid "c324784c-b7da-42e3-afb4-d077e844990c")
 	)
 	(label "5v_vfd_tap"
-		(at 232.41 229.87 90)
+		(at 229.87 229.87 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -12880,7 +12896,7 @@
 		(uuid "cea010a4-585e-484b-8b10-c91bea2b0d2a")
 	)
 	(label "-5v_pulse_tap"
-		(at 278.13 60.96 180)
+		(at 278.13 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15199,7 +15215,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT-363_DIO"
+		(property "Footprint" "BZX84C3V3TS-7-F:SOT-363_DIO"
 			(at 267.97 233.68 0)
 			(effects
 				(font
@@ -15400,7 +15416,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2f14e870-2547-4b06-9659-55ed33e46e07")
 		(property "Reference" "R152"
 			(at 160.02 260.3499 0)
@@ -16214,7 +16230,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "4e60de9b-5a00-4367-b542-1bcd961ab8d0")
 		(property "Reference" "#PWR0193"
@@ -17250,7 +17266,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "60175ae2-c5c6-4373-a644-23046d5c1390")
 		(property "Reference" "U21"
 			(at 128.778 231.648 0)
@@ -18086,7 +18102,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6d76e638-7d6d-4c4f-a1f3-bf5bdb007604")
 		(property "Reference" "R150"
 			(at 138.684 263.144 90)
@@ -18583,7 +18599,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "7682ba05-1987-4f60-a99e-229db6682bcb")
 		(property "Reference" "#PWR0182"
@@ -18848,7 +18864,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "78baec4c-413e-48e4-bf2c-deafb379c2d9")
 		(property "Reference" "C53"
@@ -19207,7 +19223,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "81b74616-3c67-4870-bcdf-447e3285d144")
 		(property "Reference" "#PWR0195"
@@ -20296,7 +20312,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "9152cbc9-84f6-4bdf-964a-3619f976c699")
 		(property "Reference" "#PWR0194"
@@ -21299,7 +21315,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT-363_DIO"
+		(property "Footprint" "BZX84C3V3TS-7-F:SOT-363_DIO"
 			(at 234.95 233.68 0)
 			(effects
 				(font
@@ -22676,7 +22692,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "b99aa96b-b888-4fc9-9297-0df786e73298")
 		(property "Reference" "R149"
 			(at 118.364 242.824 90)
@@ -23891,7 +23907,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT-363_DIO"
+		(property "Footprint" "BZX84C3V3TS-7-F:SOT-363_DIO"
 			(at 203.2 233.68 0)
 			(effects
 				(font
@@ -24024,7 +24040,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "c734dd14-1d33-4c13-a1e3-183051fdaea7")
 		(property "Reference" "R151"
@@ -24566,7 +24582,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "d00e22c0-8b62-4f40-a126-521557ce2807")
 		(property "Reference" "#PWR0196"
@@ -25347,7 +25363,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "VPPA"
+		(property "Value" "VPPB"
 			(at 292.1 177.8 0)
 			(effects
 				(font
@@ -26578,7 +26594,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "fc1314b5-ca2e-47e5-9e20-c8a9fc9c7803")
 		(property "Reference" "C59"
 			(at 116.078 252.222 0)
