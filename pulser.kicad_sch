@@ -944,113 +944,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector:TestPoint"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0.762)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "TP"
-				(at 0 6.858 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "TestPoint"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 5.08 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "test point"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "test point tp"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Pin* Test*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "TestPoint_0_1"
-				(circle
-					(center 0 3.302)
-					(radius 0.762)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TestPoint_1_1"
-				(pin passive line
-					(at 0 0 90)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Connector_Generic:Conn_02x04_Odd_Even"
 			(pin_names
 				(offset 1.016)
@@ -4177,12 +4070,6 @@
 		(uuid "086dc33e-3bf0-41c6-aba4-b43a1f30ae08")
 	)
 	(junction
-		(at 294.64 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "089c6a71-4960-4e93-9c94-d49b4f2bbb06")
-	)
-	(junction
 		(at 294.64 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4201,34 +4088,10 @@
 		(uuid "109e1f78-74d3-4a52-aa01-4c7af98b5ad3")
 	)
 	(junction
-		(at 342.9 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "163ba53a-3db3-40fd-99bd-3b2869592683")
-	)
-	(junction
-		(at 181.61 34.0617)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "16d7e0d1-b8a4-4e93-88f9-156adefeea46")
-	)
-	(junction
-		(at 162.56 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1bcc3605-89b3-4b6d-9bc3-3348c1abfaf4")
-	)
-	(junction
 		(at 22.86 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d86f78a-4e60-40e6-ad94-04aef4533675")
-	)
-	(junction
-		(at 149.86 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "27ee7353-b27d-4c6f-8376-b303921f3f61")
 	)
 	(junction
 		(at 342.9 180.34)
@@ -4297,12 +4160,6 @@
 		(uuid "48e97b7d-2361-47d2-8a50-073dc8c158c7")
 	)
 	(junction
-		(at 294.64 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4b0d18dd-1e53-49a9-b32c-1796e30d2df9")
-	)
-	(junction
 		(at 342.9 176.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4313,12 +4170,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "50341638-b470-44b8-a8d5-65696659ca53")
-	)
-	(junction
-		(at 168.91 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "58495fd7-b90e-4784-9fe1-e68b7d3f569f")
 	)
 	(junction
 		(at 179.07 113.03)
@@ -4387,40 +4238,10 @@
 		(uuid "87c4db4c-cdf2-4057-ae73-6a8dcc4a3046")
 	)
 	(junction
-		(at 175.26 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8f7f0a1a-d6f0-445c-bb4a-b924c9e5f96d")
-	)
-	(junction
-		(at 187.96 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "949e3b9f-450a-448a-826f-df2a129aea3b")
-	)
-	(junction
 		(at 259.08 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a5866973-942e-4e4b-a439-810671ec2ce3")
-	)
-	(junction
-		(at 294.64 157.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa58b60d-346d-45de-b8cc-97a4c20c8a2b")
-	)
-	(junction
-		(at 342.9 156.21)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aa69320d-b01a-42f6-9c07-d3f80f124570")
-	)
-	(junction
-		(at 143.51 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "aae45e14-755b-41dc-9b95-0b1a85432719")
 	)
 	(junction
 		(at 95.25 128.27)
@@ -4457,12 +4278,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b229472f-e10d-4938-8534-62b6b82245c6")
-	)
-	(junction
-		(at 156.21 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b512e93a-986d-4ed4-8d64-c35a766e0e30")
 	)
 	(junction
 		(at 283.21 173.99)
@@ -4525,12 +4340,6 @@
 		(uuid "dca4e805-5f30-49e4-b8ba-e79e0f4a1d3a")
 	)
 	(junction
-		(at 294.64 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "def7a3ca-2075-47ab-8c10-4c0f7300ab5f")
-	)
-	(junction
 		(at 377.19 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4582,7 +4391,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 156.21) (xy 342.9 161.29)
+			(xy 342.9 153.67) (xy 342.9 161.29)
 		)
 		(stroke
 			(width 0)
@@ -4642,7 +4451,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 31.75) (xy 149.86 34.29)
+			(xy 149.86 31.75) (xy 149.86 39.37)
 		)
 		(stroke
 			(width 0)
@@ -4722,7 +4531,7 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 34.29) (xy 156.21 41.91)
+			(xy 156.21 31.75) (xy 156.21 41.91)
 		)
 		(stroke
 			(width 0)
@@ -4812,7 +4621,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 31.75) (xy 162.56 34.29)
+			(xy 162.56 31.75) (xy 162.56 44.45)
 		)
 		(stroke
 			(width 0)
@@ -4859,16 +4668,6 @@
 			(type default)
 		)
 		(uuid "10e4a7e4-01f3-45c0-b6f8-d0090324ae2f")
-	)
-	(wire
-		(pts
-			(xy 168.91 31.75) (xy 168.91 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "115ae7f6-8b3f-4dbb-9c31-28609683ccff")
 	)
 	(wire
 		(pts
@@ -4992,16 +4791,6 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 34.29) (xy 149.86 39.37)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17e039c9-6d78-4b2f-9105-1acfadb2e169")
-	)
-	(wire
-		(pts
 			(xy 22.86 123.19) (xy 22.86 127)
 		)
 		(stroke
@@ -5122,7 +4911,7 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 129.54) (xy 342.9 125.73)
+			(xy 342.9 125.73) (xy 342.9 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5132,7 +4921,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 102.87) (xy 294.64 106.68)
+			(xy 294.64 102.87) (xy 294.64 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5322,7 +5111,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 129.54) (xy 294.64 125.73)
+			(xy 294.64 125.73) (xy 294.64 133.35)
 		)
 		(stroke
 			(width 0)
@@ -5399,16 +5188,6 @@
 			(type default)
 		)
 		(uuid "2e66e561-d979-4818-8e12-21f0120b819c")
-	)
-	(wire
-		(pts
-			(xy 342.9 153.67) (xy 342.9 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2e8f9a0a-7ac0-4d1c-a5ac-67c2be16bb4d")
 	)
 	(wire
 		(pts
@@ -5599,16 +5378,6 @@
 			(type default)
 		)
 		(uuid "3d9a3548-ecfa-41e8-8623-2ccc1e3a3116")
-	)
-	(wire
-		(pts
-			(xy 162.56 34.29) (xy 162.56 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f5e4fc4-e5f2-409b-bc3c-c38a2ade569a")
 	)
 	(wire
 		(pts
@@ -5859,16 +5628,6 @@
 			(type default)
 		)
 		(uuid "4f608979-2a29-4fdb-b846-f3b1b88cad6e")
-	)
-	(wire
-		(pts
-			(xy 143.51 31.75) (xy 143.51 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f769c9e-3512-4469-89d6-ed50fa91fe88")
 	)
 	(wire
 		(pts
@@ -6232,7 +5991,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 157.48) (xy 294.64 161.29)
+			(xy 294.64 153.67) (xy 294.64 161.29)
 		)
 		(stroke
 			(width 0)
@@ -6242,7 +6001,7 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 34.29) (xy 143.51 36.83)
+			(xy 143.51 31.75) (xy 143.51 36.83)
 		)
 		(stroke
 			(width 0)
@@ -6322,16 +6081,6 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 31.75) (xy 181.61 34.0617)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "74ccc842-bef0-4bec-8ce0-4c756f1acfbe")
-	)
-	(wire
-		(pts
 			(xy 73.66 246.38) (xy 81.28 246.38)
 		)
 		(stroke
@@ -6392,16 +6141,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 133.35) (xy 294.64 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "791918a5-fea5-4060-af5c-d4d878a51262")
-	)
-	(wire
-		(pts
 			(xy 241.3 62.23) (xy 245.11 62.23)
 		)
 		(stroke
@@ -6419,16 +6158,6 @@
 			(type default)
 		)
 		(uuid "7b0b0ba5-ad86-47fe-bbde-1984e49edbf8")
-	)
-	(wire
-		(pts
-			(xy 175.26 31.75) (xy 175.26 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b21c9f9-610d-4c2c-b837-4f643c888dd8")
 	)
 	(wire
 		(pts
@@ -6459,16 +6188,6 @@
 			(type default)
 		)
 		(uuid "7bbe5972-1c96-461f-928c-429746b09912")
-	)
-	(wire
-		(pts
-			(xy 294.64 184.15) (xy 294.64 180.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7cfe7249-2bbf-4ae8-8e87-2ad0ec8b8578")
 	)
 	(wire
 		(pts
@@ -6532,7 +6251,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 34.0617) (xy 181.61 52.07)
+			(xy 181.61 31.75) (xy 181.61 52.07)
 		)
 		(stroke
 			(width 0)
@@ -6742,7 +6461,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 34.29) (xy 168.91 46.99)
+			(xy 168.91 31.75) (xy 168.91 46.99)
 		)
 		(stroke
 			(width 0)
@@ -6809,16 +6528,6 @@
 			(type default)
 		)
 		(uuid "994a4830-b93e-4724-b736-6960ec9f9d69")
-	)
-	(wire
-		(pts
-			(xy 187.96 31.75) (xy 187.96 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9be10f5b-24b8-4cf3-942d-a108977f3194")
 	)
 	(wire
 		(pts
@@ -6972,16 +6681,6 @@
 	)
 	(wire
 		(pts
-			(xy 342.9 133.35) (xy 342.9 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ab14434d-909a-4683-ae69-c1473bd0629c")
-	)
-	(wire
-		(pts
 			(xy 354.33 123.19) (xy 354.33 125.73)
 		)
 		(stroke
@@ -7029,16 +6728,6 @@
 			(type default)
 		)
 		(uuid "acf1a75f-219e-4a3b-849c-9582c0654c8a")
-	)
-	(wire
-		(pts
-			(xy 156.21 31.75) (xy 156.21 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ad0985a6-5ce0-41ee-b186-492db2a0f944")
 	)
 	(wire
 		(pts
@@ -7102,16 +6791,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 106.68) (xy 294.64 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b0a2beb7-515c-462e-ba4f-8a1b2d46f5f2")
-	)
-	(wire
-		(pts
 			(xy 342.9 176.53) (xy 341.63 176.53)
 		)
 		(stroke
@@ -7139,16 +6818,6 @@
 			(type default)
 		)
 		(uuid "b1a2fa1d-f45d-4ca4-abec-37589181d821")
-	)
-	(wire
-		(pts
-			(xy 294.64 153.67) (xy 294.64 157.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b1f7648f-cdcd-4a0b-bca7-4227db76c204")
 	)
 	(wire
 		(pts
@@ -7262,7 +6931,7 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 180.34) (xy 294.64 176.53)
+			(xy 294.64 176.53) (xy 294.64 184.15)
 		)
 		(stroke
 			(width 0)
@@ -7272,7 +6941,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 34.29) (xy 187.96 54.61)
+			(xy 187.96 31.75) (xy 187.96 54.61)
 		)
 		(stroke
 			(width 0)
@@ -7402,7 +7071,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 34.29) (xy 175.26 49.53)
+			(xy 175.26 31.75) (xy 175.26 49.53)
 		)
 		(stroke
 			(width 0)
@@ -9092,7 +8761,7 @@
 		(uuid "0620478b-616b-431a-8a7a-ab78fe4fa191")
 	)
 	(label "TR5"
-		(at 153.67 74.93 0)
+		(at 168.91 74.93 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9152,7 +8821,7 @@
 		(uuid "368b16de-1c24-40f8-a46d-ff2c95ca4097")
 	)
 	(label "TR2"
-		(at 153.67 67.31 0)
+		(at 168.91 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9242,7 +8911,7 @@
 		(uuid "71430373-cc10-4b0e-8f05-bfcc884d7c2f")
 	)
 	(label "TR4"
-		(at 153.67 72.39 0)
+		(at 168.91 72.39 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9252,7 +8921,7 @@
 		(uuid "91855a95-e4bf-430c-bf80-c2c2397fcae7")
 	)
 	(label "TR6"
-		(at 153.67 77.47 0)
+		(at 168.91 77.47 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9292,7 +8961,7 @@
 		(uuid "ab0ddd0d-4699-439a-9f90-c0a7896eadb1")
 	)
 	(label "TR3"
-		(at 153.67 69.85 0)
+		(at 168.91 69.85 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9322,7 +8991,7 @@
 		(uuid "c2e87bcb-1b1b-4767-b6cb-1480c6bdae6f")
 	)
 	(label "TR7"
-		(at 153.67 80.01 0)
+		(at 168.91 80.01 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10683,166 +10352,6 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Test-Points:RCT-0C")
-		(at 171.45 74.93 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1d0e144f-96b5-4e6d-990f-a0fcf312bb1f")
-		(property "Reference" "TP5"
-			(at 172.72 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RCT-0C"
-			(at 178.562 74.93 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
-			(at 166.37 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 163.83 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PC TEST POINT NATURAL"
-			(at 171.45 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "A106144CT-ND"
-			(at 161.29 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCT-0C"
-			(at 158.75 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Test and Measurement"
-			(at 156.21 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Test Points"
-			(at 153.67 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 151.13 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801"
-			(at 148.59 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "PC TEST POINT NATURAL"
-			(at 146.05 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity AMP Connectors"
-			(at 143.51 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 140.97 80.01 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10151872-4a28-4257-83d5-d9116421a051")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 177.8 243.84 270)
 		(mirror x)
@@ -12026,73 +11535,6 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 168.91 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "28f4d25e-dae6-4983-96ca-265835bc3170")
-		(property "Reference" "TP13"
-			(at 169.926 32.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 173.99 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 168.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 168.91 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1a35a69-f8a9-420f-b344-de473c34b446")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP13")
 					(unit 1)
 				)
 			)
@@ -13540,73 +12982,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 187.96 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3e6481f4-ce0c-43b3-bce5-10a08e4efc37")
-		(property "Reference" "TP16"
-			(at 188.976 32.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 193.04 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 187.96 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 187.96 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 187.96 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21d72134-2807-49ef-9873-fe5155d35d9f")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 360.68 163.83 90)
 		(mirror x)
@@ -13737,73 +13112,6 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "#PWR0172")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 162.56 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "453f60c6-e5cc-460e-bec0-c1918b34eed1")
-		(property "Reference" "TP12"
-			(at 163.576 32.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 167.64 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 162.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 162.56 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 162.56 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29642832-a18b-4bb4-b98e-a6f4a49bb11b")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -14696,166 +14004,6 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Test-Points:RCT-0C")
-		(at 171.45 67.31 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5af8cf81-12b9-43cf-9ccb-8cc7f79c826d")
-		(property "Reference" "TP2"
-			(at 172.72 66.0399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RCT-0C"
-			(at 178.562 67.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
-			(at 166.37 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 163.83 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PC TEST POINT NATURAL"
-			(at 171.45 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "A106144CT-ND"
-			(at 161.29 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCT-0C"
-			(at 158.75 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Test and Measurement"
-			(at 156.21 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Test Points"
-			(at 153.67 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 151.13 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801"
-			(at 148.59 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "PC TEST POINT NATURAL"
-			(at 146.05 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity AMP Connectors"
-			(at 143.51 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 140.97 72.39 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0dc0f4d3-7146-4148-b76d-6052432148df")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "CONSMA002-SMD:CONSMA002-SMD")
 		(at 181.61 123.19 0)
 		(mirror y)
@@ -15066,163 +14214,6 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dk_Test-Points:RCT-0C")
-		(at 297.18 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5cd4606b-eec1-4e7c-8cb9-1a254924d3f9")
-		(property "Reference" "TP53"
-			(at 300.482 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RCT-0C"
-			(at 297.1419 109.22 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
-			(at 292.1 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 289.56 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PC TEST POINT NATURAL"
-			(at 297.18 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "A106144CT-ND"
-			(at 287.02 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCT-0C"
-			(at 284.48 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Test and Measurement"
-			(at 281.94 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Test Points"
-			(at 279.4 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 276.86 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801"
-			(at 274.32 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "PC TEST POINT NATURAL"
-			(at 271.78 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity AMP Connectors"
-			(at 269.24 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 266.7 101.6 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "785937b2-5c12-4383-9001-095819a289bc")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP53")
 					(unit 1)
 				)
 			)
@@ -15773,73 +14764,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 156.21 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6d10ee94-f9b3-4cf0-800d-238f4bb22cd8")
-		(property "Reference" "TP11"
-			(at 157.226 32.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 161.29 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 156.21 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 156.21 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6d83641f-e632-420f-8ef4-0143660327ce")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 177.8 250.19 270)
 		(mirror x)
@@ -15901,73 +14825,6 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "#PWR0174")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 143.51 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ec6351f-67fb-4f80-8de9-014040bf5395")
-		(property "Reference" "TP9"
-			(at 144.78 32.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 148.59 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 143.51 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 143.51 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 143.51 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b03041f5-102d-4b06-80c2-e0733637a45e")
-		)
-		(instances
-			(project ""
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -16040,483 +14897,6 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Test-Points:RCT-0C")
-		(at 171.45 77.47 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6fbf853d-b470-4b7b-8dd1-9bcf5eff26a2")
-		(property "Reference" "TP6"
-			(at 172.72 76.1999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RCT-0C"
-			(at 178.562 77.47 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
-			(at 166.37 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 163.83 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PC TEST POINT NATURAL"
-			(at 171.45 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "A106144CT-ND"
-			(at 161.29 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCT-0C"
-			(at 158.75 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Test and Measurement"
-			(at 156.21 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Test Points"
-			(at 153.67 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 151.13 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801"
-			(at 148.59 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "PC TEST POINT NATURAL"
-			(at 146.05 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity AMP Connectors"
-			(at 143.51 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 140.97 82.55 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6516b991-3ab4-4894-801f-9721b254ae7d")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dk_Test-Points:RCT-0C")
-		(at 171.45 69.85 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7145a11c-84dc-4036-8ce9-16844ae7c49f")
-		(property "Reference" "TP3"
-			(at 172.72 68.5799 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RCT-0C"
-			(at 178.562 69.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
-			(at 166.37 74.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 163.83 74.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PC TEST POINT NATURAL"
-			(at 171.45 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "A106144CT-ND"
-			(at 161.29 74.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCT-0C"
-			(at 158.75 74.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Test and Measurement"
-			(at 156.21 74.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Test Points"
-			(at 153.67 74.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 151.13 74.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801"
-			(at 148.59 74.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "PC TEST POINT NATURAL"
-			(at 146.05 74.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity AMP Connectors"
-			(at 143.51 74.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 140.97 74.93 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "28edc6e7-0311-4081-9065-ab5f5f1dff3d")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dk_Test-Points:RCT-0C")
-		(at 297.18 180.34 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "7282d17c-90ef-4ae5-86a2-38761261dd11")
-		(property "Reference" "TP59"
-			(at 300.482 180.34 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RCT-0C"
-			(at 297.1419 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
-			(at 292.1 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 289.56 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PC TEST POINT NATURAL"
-			(at 297.18 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "A106144CT-ND"
-			(at 287.02 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCT-0C"
-			(at 284.48 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Test and Measurement"
-			(at 281.94 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Test Points"
-			(at 279.4 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 276.86 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801"
-			(at 274.32 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "PC TEST POINT NATURAL"
-			(at 271.78 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity AMP Connectors"
-			(at 269.24 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 266.7 175.26 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ed472c6a-4ca2-4fe5-baa0-de013bff5a4d")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 360.68 173.99 90)
 		(unit 1)
@@ -16580,73 +14960,6 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "R98")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 181.61 34.0617 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "77903916-4f15-4933-aa84-19948b89bf85")
-		(property "Reference" "TP15"
-			(at 182.626 32.0297 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 186.69 35.3316 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 181.61 39.1417 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 39.1417 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 181.61 34.0617 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e8b4540d-a10e-43c1-8569-09ac676204df")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP15")
 					(unit 1)
 				)
 			)
@@ -17120,163 +15433,6 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "#PWR097")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dk_Test-Points:RCT-0C")
-		(at 297.18 157.48 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "83189637-4d8b-4bf0-84c3-10858b269c00")
-		(property "Reference" "TP57"
-			(at 300.482 157.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RCT-0C"
-			(at 297.1419 160.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
-			(at 292.1 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 289.56 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PC TEST POINT NATURAL"
-			(at 297.18 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "A106144CT-ND"
-			(at 287.02 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCT-0C"
-			(at 284.48 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Test and Measurement"
-			(at 281.94 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Test Points"
-			(at 279.4 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 276.86 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801"
-			(at 274.32 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "PC TEST POINT NATURAL"
-			(at 271.78 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity AMP Connectors"
-			(at 269.24 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 266.7 152.4 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2d2f3ad5-dc91-4fbb-9c4d-7dfe303c4bef")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP57")
 					(unit 1)
 				)
 			)
@@ -19140,166 +17296,6 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Test-Points:RCT-0C")
-		(at 171.45 72.39 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6c49bd2-94a9-4bf9-b528-d0c36a501b57")
-		(property "Reference" "TP4"
-			(at 172.72 71.1199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RCT-0C"
-			(at 178.562 72.39 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
-			(at 166.37 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 163.83 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PC TEST POINT NATURAL"
-			(at 171.45 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "A106144CT-ND"
-			(at 161.29 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCT-0C"
-			(at 158.75 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Test and Measurement"
-			(at 156.21 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Test Points"
-			(at 153.67 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 151.13 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801"
-			(at 148.59 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "PC TEST POINT NATURAL"
-			(at 146.05 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity AMP Connectors"
-			(at 143.51 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 140.97 77.47 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "269054b9-e55c-4c9e-8345-3abbde52629c")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 347.98 176.53 90)
 		(mirror x)
@@ -19634,166 +17630,6 @@
 		)
 	)
 	(symbol
-		(lib_id "dk_Test-Points:RCT-0C")
-		(at 171.45 80.01 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b98d6687-3b77-44f6-a991-4292ad32d388")
-		(property "Reference" "TP7"
-			(at 172.72 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "RCT-0C"
-			(at 178.562 80.01 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
-			(at 166.37 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 163.83 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PC TEST POINT NATURAL"
-			(at 171.45 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "A106144CT-ND"
-			(at 161.29 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCT-0C"
-			(at 158.75 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Test and Measurement"
-			(at 156.21 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Test Points"
-			(at 153.67 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 151.13 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801"
-			(at 148.59 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "PC TEST POINT NATURAL"
-			(at 146.05 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity AMP Connectors"
-			(at 143.51 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 140.97 85.09 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eb5fdd53-e151-4d3d-bbc1-322ea7c9349e")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 347.98 125.73 90)
 		(mirror x)
@@ -19925,164 +17761,6 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "C86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dk_Test-Points:RCT-0C")
-		(at 340.36 156.21 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c1cbf8b1-afae-4c21-a846-2844bf83b89e")
-		(property "Reference" "TP58"
-			(at 337.058 156.21 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RCT-0C"
-			(at 340.3981 158.75 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
-			(at 345.44 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 347.98 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PC TEST POINT NATURAL"
-			(at 340.36 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "A106144CT-ND"
-			(at 350.52 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCT-0C"
-			(at 353.06 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Test and Measurement"
-			(at 355.6 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Test Points"
-			(at 358.14 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 360.68 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801"
-			(at 363.22 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "PC TEST POINT NATURAL"
-			(at 365.76 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity AMP Connectors"
-			(at 368.3 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 370.84 151.13 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5064e819-3739-4f01-bf1d-e5bf71e11467")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP58")
 					(unit 1)
 				)
 			)
@@ -21201,73 +18879,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 149.86 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cfdfbee2-2741-4e5c-ab0f-ba3ff27944de")
-		(property "Reference" "TP10"
-			(at 150.876 32.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 154.94 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 149.86 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 149.86 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 149.86 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f93af4b9-664e-4f0e-9cf7-0577f4be57e1")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 255.27 168.91 0)
 		(unit 1)
@@ -21534,73 +19145,6 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "R91")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 175.26 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "dce4c3ad-d481-4b72-813b-51316c628573")
-		(property "Reference" "TP14"
-			(at 176.276 32.258 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 180.34 35.5599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "TestPoint:TestPoint_Pad_D1.5mm"
-			(at 175.26 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 175.26 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 175.26 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cf383b80-d5c5-42cb-9741-e722f94dbb21")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP14")
 					(unit 1)
 				)
 			)
@@ -22086,163 +19630,6 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "#PWR028")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dk_Test-Points:RCT-0C")
-		(at 297.18 129.54 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e201c41c-c651-45c2-a28a-8db857b6da32")
-		(property "Reference" "TP55"
-			(at 300.482 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RCT-0C"
-			(at 297.1419 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
-			(at 292.1 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 289.56 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PC TEST POINT NATURAL"
-			(at 297.18 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "A106144CT-ND"
-			(at 287.02 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCT-0C"
-			(at 284.48 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Test and Measurement"
-			(at 281.94 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Test Points"
-			(at 279.4 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 276.86 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801"
-			(at 274.32 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "PC TEST POINT NATURAL"
-			(at 271.78 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity AMP Connectors"
-			(at 269.24 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 266.7 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a4f5e128-fec3-4eb9-a3dc-0036c9fcbf21")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP55")
 					(unit 1)
 				)
 			)
@@ -23159,164 +20546,6 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
 					(reference "R86")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "dk_Test-Points:RCT-0C")
-		(at 340.36 129.54 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f531af15-e146-4c41-ab96-046556a6cbf2")
-		(property "Reference" "TP56"
-			(at 337.058 129.54 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RCT-0C"
-			(at 340.3981 132.08 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "digikey-footprints:PROBE_PAD_0805"
-			(at 345.44 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 347.98 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "PC TEST POINT NATURAL"
-			(at 340.36 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Digi-Key_PN" "A106144CT-ND"
-			(at 350.52 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "MPN" "RCT-0C"
-			(at 353.06 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Category" "Test and Measurement"
-			(at 355.6 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Family" "Test Points"
-			(at 358.14 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Datasheet_Link" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1773266&DocType=DS&DocLang=English"
-			(at 360.68 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "DK_Detail_Page" "/product-detail/en/te-connectivity-amp-connectors/RCT-0C/A106144CT-ND/3477801"
-			(at 363.22 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "PC TEST POINT NATURAL"
-			(at 365.76 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "TE Connectivity AMP Connectors"
-			(at 368.3 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Status" "Active"
-			(at 370.84 124.46 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c16ad686-b791-47e5-88c3-9634f41f547c")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/3d58f5d9-3eeb-4243-b251-3f4dbba0d4d4"
-					(reference "TP56")
 					(unit 1)
 				)
 			)
