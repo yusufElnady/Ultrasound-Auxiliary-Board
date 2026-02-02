@@ -6490,6 +6490,19 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "Status is OK when the following\nvalues are measured:\n\nvpp_tap: 2.912V\n12V_tap: 1.714V\n7v_vfd_tap: 1.75V\n5v_pulse_tap: 1.25V\n5v_vfd_tap: 1.25V\n"
+		(exclude_from_sim no)
+		(at 193.548 210.312 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+			(justify left)
+		)
+		(uuid "2ab2a78a-8bdf-4999-b8a4-f976ba1883b2")
+	)
 	(text "The crystal is required (@ 16MHz):\n- To have a drive level of >= 1mW (a damping resistor is used)\n- Have maximum ESR of 75 Ohms (50 is used)\n- 12pF < Cl < 24pF (18pF is used)"
 		(exclude_from_sim no)
 		(at 16.51 56.896 0)
@@ -6648,12 +6661,6 @@
 		(uuid "0cfd0a88-7641-46a7-9bcb-5516c8e61118")
 	)
 	(junction
-		(at 228.6 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "106a2f34-5ce6-4191-a083-a638a899f253")
-	)
-	(junction
 		(at 171.45 80.01)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6792,6 +6799,12 @@
 		(uuid "46acf427-d9b1-4b0c-ae6f-9ef9d52f89e1")
 	)
 	(junction
+		(at 265.43 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4888ab2a-6ba6-44df-90d7-a0d91109a3d2")
+	)
+	(junction
 		(at 158.75 264.16)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6808,12 +6821,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4c36fea3-a05d-42ce-bb8a-4903ce165d48")
-	)
-	(junction
-		(at 300.99 190.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4d524ecd-1b42-4f17-8d3f-5f5ead0b3970")
 	)
 	(junction
 		(at 41.91 85.09)
@@ -6900,12 +6907,6 @@
 		(uuid "7e8856a3-232f-4c76-805d-ac592a866882")
 	)
 	(junction
-		(at 265.43 187.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7ebe59fa-4be8-4199-9a14-23aef1bd3da4")
-	)
-	(junction
 		(at 107.95 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6970,6 +6971,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9f0765ce-4922-4a56-87ce-4454584dba0d")
+	)
+	(junction
+		(at 228.6 187.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a0924350-8ae9-4a59-b0fe-9ed192674b17")
 	)
 	(junction
 		(at 41.91 118.11)
@@ -7060,6 +7067,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2737a2d-2292-4cf7-806b-5ebb0074c9a4")
+	)
+	(junction
+		(at 300.99 190.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3af4167-dccf-4dae-8eea-01c367e336ca")
 	)
 	(junction
 		(at 135.89 260.35)
@@ -7398,16 +7411,6 @@
 			(type default)
 		)
 		(uuid "0b874391-7a68-4d0d-8efe-2b5b304b51f4")
-	)
-	(wire
-		(pts
-			(xy 300.99 187.96) (xy 300.99 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bc5cfb0-747d-4db1-8200-1a7f31314338")
 	)
 	(wire
 		(pts
@@ -7751,6 +7754,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 190.5) (xy 300.99 191.77)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d0d5272-cefb-4d73-b407-2445406137c4")
+	)
+	(wire
+		(pts
 			(xy 181.61 194.31) (xy 181.61 200.66)
 		)
 		(stroke
@@ -7778,16 +7791,6 @@
 			(type default)
 		)
 		(uuid "1da81a3b-0f34-4ffd-87c3-e35abf45f9d0")
-	)
-	(wire
-		(pts
-			(xy 228.6 187.96) (xy 228.6 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1daac46e-bdf3-47dc-b7ec-b0638a3b2445")
 	)
 	(wire
 		(pts
@@ -8198,16 +8201,6 @@
 			(type default)
 		)
 		(uuid "3bdc0bd8-eb42-4cf0-b3cb-34e0bacfc8a2")
-	)
-	(wire
-		(pts
-			(xy 300.99 200.66) (xy 300.99 201.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3c690a6c-a0ae-44fa-ab77-72ecc6e7ab1a")
 	)
 	(wire
 		(pts
@@ -9611,16 +9604,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 187.96) (xy 265.43 190.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a6d3da4-1be0-4c4d-a558-f00b26536b84")
-	)
-	(wire
-		(pts
 			(xy 388.62 101.6) (xy 388.62 109.22)
 		)
 		(stroke
@@ -10071,6 +10054,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 199.39) (xy 300.99 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a42202aa-f9f1-47bc-b0a6-0e1b7b57d7b5")
+	)
+	(wire
+		(pts
 			(xy 123.19 95.25) (xy 107.95 95.25)
 		)
 		(stroke
@@ -10351,6 +10344,16 @@
 	)
 	(wire
 		(pts
+			(xy 265.43 186.69) (xy 265.43 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b8f515-ac51-46cb-9999-9697b0360783")
+	)
+	(wire
+		(pts
 			(xy 300.99 242.57) (xy 300.99 243.84)
 		)
 		(stroke
@@ -10398,6 +10401,16 @@
 			(type default)
 		)
 		(uuid "b5154faa-9b9a-48b7-a5ea-5f548099e050")
+	)
+	(wire
+		(pts
+			(xy 265.43 187.96) (xy 265.43 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b658911f-9a12-4474-8a17-d115b81b8be1")
 	)
 	(wire
 		(pts
@@ -10731,6 +10744,16 @@
 	)
 	(wire
 		(pts
+			(xy 300.99 187.96) (xy 300.99 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c466111d-9552-4b51-8da7-3b3fc30228a6")
+	)
+	(wire
+		(pts
 			(xy 341.63 137.16) (xy 344.17 137.16)
 		)
 		(stroke
@@ -10831,6 +10854,16 @@
 	)
 	(wire
 		(pts
+			(xy 228.6 187.96) (xy 228.6 190.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cc2b207e-8603-4f28-a9ac-ba9468e119a6")
+	)
+	(wire
+		(pts
 			(xy 172.72 96.52) (xy 179.07 96.52)
 		)
 		(stroke
@@ -10888,6 +10921,16 @@
 			(type default)
 		)
 		(uuid "cffe0c40-a0fa-446f-afff-417f5e3c17c0")
+	)
+	(wire
+		(pts
+			(xy 228.6 186.69) (xy 228.6 187.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d018e33f-deef-4945-a9d9-05163e5931f5")
 	)
 	(wire
 		(pts
@@ -11521,16 +11564,6 @@
 	)
 	(wire
 		(pts
-			(xy 228.6 186.69) (xy 228.6 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e963be7e-0ee7-4f8d-969d-66bcdc2f9f64")
-	)
-	(wire
-		(pts
 			(xy 53.34 114.3) (xy 53.34 118.11)
 		)
 		(stroke
@@ -11791,16 +11824,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 186.69) (xy 265.43 187.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f36439fa-e95e-4ea8-927b-0a8a0f147aae")
-	)
-	(wire
-		(pts
 			(xy 350.52 195.58) (xy 367.03 195.58)
 		)
 		(stroke
@@ -12018,16 +12041,6 @@
 			(type default)
 		)
 		(uuid "feb7bf1d-5ab1-441b-910f-3af467e7ccba")
-	)
-	(wire
-		(pts
-			(xy 300.99 190.5) (xy 300.99 193.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff3cc4f3-f684-4a82-854d-caf438cc6138")
 	)
 	(image
 		(at 254 79.756)
@@ -14633,73 +14646,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 300.99 196.85 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "087ac8ff-9b3c-4994-b06c-15f9c1983e67")
-		(property "Reference" "R148"
-			(at 298.704 197.104 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2k"
-			(at 296.418 197.358 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 302.768 196.85 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 300.99 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2k 0805 0.1%"
-			(at 300.99 196.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fc286ea4-b1b4-4de1-ad7d-79af4b34a997")
-		)
-		(pin "1"
-			(uuid "86d633c2-b302-4957-b64b-7f185dd11b34")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
-					(reference "R148")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 179.07 58.42 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15133,76 +15079,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 228.6 194.31 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "112c7528-6d35-4508-964d-3c985a0598ef")
-		(property "Reference" "R144"
-			(at 226.06 193.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "500R"
-			(at 226.06 195.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 226.822 194.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "500R 0805"
-			(at 228.6 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "27a3bb75-6c93-4bb9-b4d3-27dd78a225fd")
-		)
-		(pin "1"
-			(uuid "75647e93-9b0e-41d8-8903-393c2787c664")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
-					(reference "R144")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 119.38 127 0)
 		(unit 1)
@@ -15478,6 +15354,142 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 300.99 195.58 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1b78e9bb-2734-4235-9337-f75c343ccecd")
+		(property "Reference" "R146"
+			(at 298.704 196.596 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 296.926 195.834 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 302.768 195.58 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 300.99 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1k 0805 0.1%"
+			(at 300.99 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a663d216-2cd7-4971-a539-220c758224df")
+		)
+		(pin "1"
+			(uuid "ad3f4073-8c90-4740-a200-3c140c7beb36")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
+					(reference "R146")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 182.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1ddbbce6-a8e7-4f48-adc7-f013d0f124fd")
+		(property "Reference" "R143"
+			(at 263.144 183.896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 261.366 183.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 267.208 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3k 0805 0.1%"
+			(at 265.43 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6b7d0182-db58-40ff-8ea2-9cc703d3edd6")
+		)
+		(pin "1"
+			(uuid "a7b85193-acce-4cba-b66d-72e4533b50a2")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
+					(reference "R143")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 52.07 180.34 0)
 		(unit 1)
@@ -15672,6 +15684,74 @@
 			(project ""
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 265.43 194.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "20ea03a6-2845-40c8-95bb-48db1e2901cc")
+		(property "Reference" "R144"
+			(at 263.144 195.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 261.366 194.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 267.208 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 265.43 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1k 0805 0.1%"
+			(at 265.43 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6460ffdc-829d-440d-84e1-88a706b3433b")
+		)
+		(pin "1"
+			(uuid "9b19fa29-48d5-467d-83e8-cf596b786cc1")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
+					(reference "R144")
 					(unit 1)
 				)
 			)
@@ -16657,76 +16737,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 265.43 182.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "38f68cea-c8b4-4fde-b323-ca506bc1a4df")
-		(property "Reference" "R145"
-			(at 267.97 181.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "330R"
-			(at 267.97 184.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 267.208 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "330R 0805"
-			(at 265.43 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c1a52692-fd2b-4bb8-8082-e1c6b1c66233")
-		)
-		(pin "1"
-			(uuid "30530422-ef16-444d-b9b9-218b9ca5b239")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
-					(reference "R145")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 19.05 68.58 0)
 		(unit 1)
@@ -17190,6 +17200,74 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
 					(reference "#PWR0159")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 300.99 184.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "48e4455f-12b3-42cc-8736-62efbdcbb7d6")
+		(property "Reference" "R145"
+			(at 298.704 185.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 296.926 184.404 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 302.768 184.15 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 300.99 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3k 0805 0.1%"
+			(at 300.99 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f2f32472-c50a-4d42-b3c4-c41ae09d703c")
+		)
+		(pin "1"
+			(uuid "50ff6371-1572-4a55-814c-3885ee58c873")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
+					(reference "R145")
 					(unit 1)
 				)
 			)
@@ -20614,7 +20692,7 @@
 				)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "500R"
 			(at 186.436 194.564 90)
 			(effects
 				(font
@@ -20640,7 +20718,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "1k 0805 0.1%"
+		(property "Description" "500R 0603 0.1%"
 			(at 190.5 194.31 0)
 			(effects
 				(font
@@ -22271,76 +22349,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 228.6 182.88 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad77ed99-65f8-4c88-84f1-1d5d99126bdb")
-		(property "Reference" "R143"
-			(at 231.14 181.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "330R"
-			(at 231.14 184.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 230.378 182.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 228.6 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "330R 0805"
-			(at 228.6 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e74f186a-6365-4379-af81-0a5cd4fa587f")
-		)
-		(pin "1"
-			(uuid "da0c2d09-f0f3-4821-b8a2-807c6e0346cc")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
-					(reference "R143")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 387.35 114.3 0)
 		(unit 1)
@@ -23172,6 +23180,74 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
 					(reference "#PWR0210")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 228.6 182.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b811db1b-1cfa-4b08-ab25-3312f899971c")
+		(property "Reference" "R155"
+			(at 226.314 183.896 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "3k"
+			(at 224.536 183.134 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.378 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "3k 0805 0.1%"
+			(at 228.6 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a7508d97-ec88-4009-b717-70bea7f72505")
+		)
+		(pin "1"
+			(uuid "a3ac5282-063b-4620-a2d6-c2d8abc23c72")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
+					(reference "R155")
 					(unit 1)
 				)
 			)
@@ -24692,73 +24768,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 300.99 184.15 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cce03d3f-d4a9-4831-b61a-bd5fdb993300")
-		(property "Reference" "R147"
-			(at 298.704 184.404 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.7k"
-			(at 296.418 184.658 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 302.768 184.15 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 300.99 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "2.7k 0805 0.1%"
-			(at 300.99 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "be7076f3-11bb-4c2f-b93c-cbe26681bde7")
-		)
-		(pin "1"
-			(uuid "39d2495b-94c9-46cf-b387-c454abbda062")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
-					(reference "R147")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 209.55 137.16 0)
 		(unit 1)
@@ -26042,76 +26051,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 265.43 194.31 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e8745708-7638-4cc5-ad88-65cded1345e3")
-		(property "Reference" "R146"
-			(at 262.89 193.0399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "500R"
-			(at 262.89 195.5799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 263.652 194.31 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 265.43 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "500R 0805"
-			(at 265.43 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "9f2fd3a1-a2d9-46ba-b5b4-cf499d888c72")
-		)
-		(pin "1"
-			(uuid "2a5393e2-09c3-4711-9fde-373a58c61532")
-		)
-		(instances
-			(project "Ultrasound_NDT"
-				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
-					(reference "R146")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 60.96 255.27 0)
 		(unit 1)
@@ -26378,6 +26317,74 @@
 			(project "Ultrasound_NDT"
 				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
 					(reference "C20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 228.6 194.31 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8aeea26-a703-4bd3-b20a-f75e4cba4e72")
+		(property "Reference" "R156"
+			(at 226.314 195.326 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 224.536 194.564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 230.378 194.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 228.6 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "1k 0805 0.1%"
+			(at 228.6 194.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a77b0f7b-223b-4a17-ac48-9caa4fb939b6")
+		)
+		(pin "1"
+			(uuid "279c03f2-e778-400c-8ab8-faece1bb5b6a")
+		)
+		(instances
+			(project "Ultrasound_NDT"
+				(path "/9cc0bb16-a3df-40ec-93e8-11b5009319f1/80deb650-3291-429a-af5f-f79360452109"
+					(reference "R156")
 					(unit 1)
 				)
 			)
