@@ -1,4 +1,4 @@
-27993172558081016
+28132574630326600
 1720BL15B0200E
 1720BL15B0200E
 1720BL15B0200E-2
@@ -6,6 +6,13 @@ Filter
 0
 6
 6
+015402.5DR
+0154Series_LTF
+
+015402.5DR 
+0
+2
+2
 42510ESDA-TR1
 42510ESDA-TR1_EAT
 
@@ -76,6 +83,13 @@ SOP65P640X120-28N
 0
 28
 28
+ASE-8.000MHZ-LC-T
+XTAL_ASE-8.000MHZ-LC-T
+
+
+0
+4
+4
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90,6 +104,27 @@ audio belton reverb
 0
 7
 7
+B4B-XH-A_LF__SN_
+JST_B4B-XH-A_LF__SN_
+
+
+0
+4
+4
+B6B-XH-A_LF__SN_
+JST_B6B-XH-A_LF__SN_
+
+
+0
+6
+6
+BC817-40
+P200_SOT-23
+SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
 BQ76905RGRR
 IC_BQ76905RGRR
 
@@ -59884,6 +59919,13 @@ ceramic
 0
 3
 3
+DOSIN-801-0083
+CONN4_DOSIN-801_DOS
+
+DOSIN-801-0083 
+0
+5
+5
 DSC1001DI2-125.0000T
 CDFN4_2P5X2_MCH
 
@@ -61928,6 +61970,27 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESD7C3-3DT5G
+SOT_C3.3DT5G_ONS
+
+ESD7C3.3DT5G 
+0
+3
+3
+ESD7C3-3DT5G
+SOT_C3.3DT5G_ONS-L
+
+ESD7C3.3DT5G 
+0
+3
+3
+ESD7C3-3DT5G
+SOT_C3.3DT5G_ONS-M
+
+ESD7C3.3DT5G 
+0
+3
+3
 ESD8104MUTAG
 DIO_ESD8104MUTAG
 
@@ -61935,6 +61998,13 @@ DIO_ESD8104MUTAG
 0
 10
 10
+ESP32-C3-MINI-1-N4
+XCVR_ESP32-C3-MINI-1-N4
+
+
+0
+61
+61
 F280025PNS
 PQFP_025PNSR_TEX
 
@@ -61956,6 +62026,13 @@ F280025PNS
 0
 80
 80
+FTR-B3GA4.5Z-B10
+FTRB3GA45ZB10
+FTR-B3GA4.5Z-B10-1_2025
+Relay or Contactor
+0
+8
+8
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -71630,6 +71707,13 @@ QFN50P1000X1000X80-69N
 0
 69
 69
+MCP4728T-E_UN
+SOP50P490X110-10N
+
+
+0
+10
+10
 MD0100N8
 TO-243AA_MCH
 
@@ -75893,6 +75977,34 @@ DIL DIP PDIP 2.54mm 7.62mm 300mil
 0
 4
 4
+PAM8302AASCR
+PAM8302AASCR_DIO
+
+PAM8302AASCR 
+0
+8
+8
+PAM8302AASCR
+PAM8302AASCR_DIO-L
+
+PAM8302AASCR 
+0
+8
+8
+PAM8302AASCR
+PAM8302AASCR_DIO-M
+
+PAM8302AASCR 
+0
+8
+8
+PL133-27GC-R
+SON40P130X200X60-7N
+
+
+0
+7
+7
 Package_BGA
 Alliance_TFBGA-36_6x8mm_Layout6x8_P0.75mm
 Alliance TFBGA-36, NSMD, 6.0x8.0mm, 36 Ball, 6x8 Layout, 0.75mm Pitch, generated with kicad-footprint-generator ipc_bga_generator.py, https://www.alliancememory.com/wp-content/uploads/pdf/AS6C1008_Mar_2023V1.2.pdf#page=13
@@ -98601,6 +98713,13 @@ rotary encoder illuminated switch vertical
 0
 9
 8
+S2B-PH-K-S_LF__SN_
+JST_S2B-PH-K-S_LF__SN_
+
+
+0
+2
+2
 SHT40-AD1F-R2
 SHT4X
 Consumer SHT4x Digital and Analog
@@ -100771,6 +100890,34 @@ SON100P400X400X100-10N
 0
 10
 10
+TDC1000PWR
+SOP65P640X120-28N
+
+
+0
+28
+28
+TDC7200PWR
+SOP65P640X120-14N
+
+
+0
+14
+14
+TLA2518IRTER
+QFN50P300X300X80-17N-D
+WQFN (16)
+Integrated Circuit
+0
+17
+17
+TLV9002IDR
+SOIC127P599X175-8N
+
+
+0
+8
+8
 TLV9354IDR
 SOIC_9354IDR_TEX
 
@@ -100836,6 +100983,13 @@ CONV_TPSM84338RCJR
 21
 TRS3221EIPWR
 SOP65P640X120-16N
+
+
+0
+16
+16
+TYPE-C-31-M-12
+HRO_TYPE-C-31-M-12
 
 
 0
